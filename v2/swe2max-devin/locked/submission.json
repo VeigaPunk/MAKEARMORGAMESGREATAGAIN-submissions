@@ -1,0 +1,60 @@
+{
+  "collection": "Armor Arcade — The Remake Collection, Vol. 01",
+  "version": "1.0.0",
+  "edition": "codex",
+  "games": [
+    {
+      "title": "Block Siege: 2Play Rooms",
+      "reference": "Boxhead: 2Play Rooms (2007)",
+      "path": "boxhead/"
+    },
+    {
+      "title": "The Impossible Cube",
+      "reference": "The Impossible Game (2010)",
+      "path": "impossible/"
+    },
+    {
+      "title": "Burger Tycoon",
+      "reference": "The McDonald's Videogame (Molleindustria, ~2006)",
+      "path": "burger-tycoon/"
+    },
+    {
+      "title": "Fowl Play: The Next Wave",
+      "reference": "Chicken Invaders 2: The Next Wave (2002)",
+      "path": "chicken-invaders/"
+    },
+    {
+      "title": "Sand & Steel — The Emperor's Arena",
+      "reference": "Swords & Sandals 2: Emperor's Reign (2007)",
+      "path": "swords-and-sandals/"
+    },
+    {
+      "title": "Cluck Horizon",
+      "reference": "Original-IP second campaign on the Chicken Invaders engine",
+      "path": "chicken-invaders-original/"
+    },
+    {
+      "title": "The Merciless Maze",
+      "reference": "The World's Hardest Game (2008)",
+      "path": "hardest/"
+    }
+  ],
+  "verification": {
+    "commands": [
+      "CHROMIUM_PATH=<playwright chromium> npm run verify   # typecheck + npm test + hardest/validate.mjs + build + test:browser",
+      "npm test                                             # 46/46 unit/model/campaign tests",
+      "node hardest/validate.mjs                            # 114/114 deterministic level replays",
+      "node --test MAGA-everything/02-code/armor-games/apps/boxhead/tests/lan.test.mjs",
+      "npm run test:browser                                 # 46 playwright + 7 boxhead + 4 shmup + hardest + S&S browser gates",
+      "node delivery/site/lan-relay.mjs                     # LAN host+relay (verified with two real browser clients)"
+    ],
+    "results": "All gates pass. npm test 46/46; hardest validator 114/114; Playwright suite 46/46 across chromium and firefox including two-browser LAN co-op and deathmatch; boxhead release pilots 7/7 (solo+coop die through the real damage path at wave 6+, deathmatch reaches 5 kills); shmup campaign pilots clear all 8 sectors on both packs over 5 seeds; S&S progression matrix 8,400 campaigns × 210 builds all complete; S&S browser full 16-bout campaign on desktop and emulated touch; subdirectory deployment verified under /magga/codex/. See records/VERIFICATION.md.",
+    "evidence": "records/ contains the per-game ship records and VERIFICATION.md; previews/ holds screenshots captured from the actual games."
+  },
+  "limitations": [
+    "Touch input verified via emulated pointer events, not physical devices; Safari untested (chromium and firefox verified).",
+    "Block Siege LAN play requires the bundled lan-relay.mjs host process (zero-dep Node 22+, one command, serves the site and pairs players); solo and local co-op/deathmatch run from static files alone.",
+    "The six bundled module apps require HTTP (ES modules); serve statically — they do not run from file://.",
+    "Original commercial assets are not reproduced; all titles, art, and names are original evocations."
+  ]
+}
