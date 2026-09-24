@@ -1,0 +1,929 @@
+{
+  "date": "2026-09-23T23:40:30.844Z",
+  "method": "Clean-save, sequential DOM keyboard event replay with 60 Hz deterministic animation clock. Actual Play/Continue controls. No game-state mutation.",
+  "levels": [
+    {
+      "id": 1,
+      "name": "First Steps",
+      "frames": 215,
+      "time": 3.5791666666667394,
+      "deaths": 0,
+      "unlocked": 2
+    },
+    {
+      "id": 2,
+      "name": "Loot Run",
+      "frames": 868,
+      "time": 14.458333333332833,
+      "deaths": 0,
+      "unlocked": 3
+    },
+    {
+      "id": 3,
+      "name": "Snake Corridor",
+      "frames": 756,
+      "time": 12.341666666666287,
+      "deaths": 1,
+      "unlocked": 4
+    },
+    {
+      "id": 4,
+      "name": "Coin Detour",
+      "frames": 298,
+      "time": 4.9625000000000385,
+      "deaths": 0,
+      "unlocked": 5
+    },
+    {
+      "id": 5,
+      "name": "Checkpoint Gauntlet",
+      "frames": 411,
+      "time": 6.841666666666598,
+      "deaths": 0,
+      "unlocked": 6
+    },
+    {
+      "id": 6,
+      "name": "Crossfire",
+      "frames": 500,
+      "time": 8.333333333333181,
+      "deaths": 0,
+      "unlocked": 7
+    },
+    {
+      "id": 7,
+      "name": "Narrow Doors",
+      "frames": 364,
+      "time": 6.054166666666643,
+      "deaths": 0,
+      "unlocked": 8
+    },
+    {
+      "id": 8,
+      "name": "Ring Patrol",
+      "frames": 402,
+      "time": 6.69999999999994,
+      "deaths": 0,
+      "unlocked": 9
+    },
+    {
+      "id": 9,
+      "name": "Two Rooms",
+      "frames": 683,
+      "time": 11.383333333333008,
+      "deaths": 0,
+      "unlocked": 10
+    },
+    {
+      "id": 10,
+      "name": "The Weave",
+      "frames": 341,
+      "time": 5.670833333333332,
+      "deaths": 0,
+      "unlocked": 11
+    },
+    {
+      "id": 11,
+      "name": "Switchback",
+      "frames": 532,
+      "time": 8.862499999999818,
+      "deaths": 0,
+      "unlocked": 12
+    },
+    {
+      "id": 12,
+      "name": "Pincer",
+      "frames": 541,
+      "time": 9.004166666666476,
+      "deaths": 0,
+      "unlocked": 13
+    },
+    {
+      "id": 13,
+      "name": "Coin Vault",
+      "frames": 465,
+      "time": 7.741666666666547,
+      "deaths": 0,
+      "unlocked": 14
+    },
+    {
+      "id": 14,
+      "name": "Fast Lanes",
+      "frames": 1337,
+      "time": 22.029166666665738,
+      "deaths": 1,
+      "unlocked": 15
+    },
+    {
+      "id": 15,
+      "name": "Maze Lite",
+      "frames": 1736,
+      "time": 28.92499999999868,
+      "deaths": 0,
+      "unlocked": 16
+    },
+    {
+      "id": 16,
+      "name": "Phase Shift",
+      "frames": 345,
+      "time": 5.7374999999999945,
+      "deaths": 0,
+      "unlocked": 17
+    },
+    {
+      "id": 17,
+      "name": "Gauntlet II",
+      "frames": 655,
+      "time": 10.908333333333035,
+      "deaths": 0,
+      "unlocked": 18
+    },
+    {
+      "id": 18,
+      "name": "Diagonal",
+      "frames": 448,
+      "time": 7.466666666666563,
+      "deaths": 0,
+      "unlocked": 19
+    },
+    {
+      "id": 19,
+      "name": "The Squeeze",
+      "frames": 1377,
+      "time": 22.941666666665686,
+      "deaths": 0,
+      "unlocked": 20
+    },
+    {
+      "id": 20,
+      "name": "Halfway",
+      "frames": 1129,
+      "time": 18.80416666666592,
+      "deaths": 0,
+      "unlocked": 21
+    },
+    {
+      "id": 21,
+      "name": "Dot Storm",
+      "frames": 488,
+      "time": 8.133333333333193,
+      "deaths": 0,
+      "unlocked": 22
+    },
+    {
+      "id": 22,
+      "name": "Labyrinth",
+      "frames": 801,
+      "time": 13.34166666666623,
+      "deaths": 0,
+      "unlocked": 23
+    },
+    {
+      "id": 23,
+      "name": "Tempo",
+      "frames": 381,
+      "time": 6.33749999999996,
+      "deaths": 0,
+      "unlocked": 24
+    },
+    {
+      "id": 24,
+      "name": "No Room",
+      "frames": 1420,
+      "time": 23.41666666666566,
+      "deaths": 1,
+      "unlocked": 25
+    },
+    {
+      "id": 25,
+      "name": "Long Haul",
+      "frames": 1848,
+      "time": 30.787499999998573,
+      "deaths": 0,
+      "unlocked": 26
+    },
+    {
+      "id": 26,
+      "name": "Crossfire II",
+      "frames": 656,
+      "time": 10.929166666666367,
+      "deaths": 0,
+      "unlocked": 27
+    },
+    {
+      "id": 27,
+      "name": "The Vault",
+      "frames": 1021,
+      "time": 17.00833333333269,
+      "deaths": 0,
+      "unlocked": 28
+    },
+    {
+      "id": 28,
+      "name": "Marathon",
+      "frames": 1688,
+      "time": 27.879166666665405,
+      "deaths": 1,
+      "unlocked": 29
+    },
+    {
+      "id": 29,
+      "name": "Panic",
+      "frames": 472,
+      "time": 7.862499999999874,
+      "deaths": 0,
+      "unlocked": 30
+    },
+    {
+      "id": 30,
+      "name": "Terminal One",
+      "frames": 1023,
+      "time": 17.04166666666602,
+      "deaths": 0,
+      "unlocked": 31
+    },
+    {
+      "id": 31,
+      "name": "Keymaster",
+      "frames": 771,
+      "time": 12.841666666666258,
+      "deaths": 0,
+      "unlocked": 32
+    },
+    {
+      "id": 32,
+      "name": "Shortcut",
+      "frames": 515,
+      "time": 8.083333333333195,
+      "deaths": 2,
+      "unlocked": 33
+    },
+    {
+      "id": 33,
+      "name": "Phase Portal",
+      "frames": 440,
+      "time": 7.329166666666571,
+      "deaths": 0,
+      "unlocked": 34
+    },
+    {
+      "id": 34,
+      "name": "Key Run",
+      "frames": 562,
+      "time": 9.366666666666456,
+      "deaths": 0,
+      "unlocked": 35
+    },
+    {
+      "id": 35,
+      "name": "Double Door",
+      "frames": 753,
+      "time": 12.545833333332942,
+      "deaths": 0,
+      "unlocked": 36
+    },
+    {
+      "id": 36,
+      "name": "Portal Maze",
+      "frames": 570,
+      "time": 9.499999999999782,
+      "deaths": 0,
+      "unlocked": 37
+    },
+    {
+      "id": 37,
+      "name": "Locked Vault",
+      "frames": 399,
+      "time": 6.645833333333276,
+      "deaths": 0,
+      "unlocked": 38
+    },
+    {
+      "id": 38,
+      "name": "Warp Lanes",
+      "frames": 398,
+      "time": 6.624999999999944,
+      "deaths": 0,
+      "unlocked": 39
+    },
+    {
+      "id": 39,
+      "name": "Key Gambit",
+      "frames": 541,
+      "time": 9.008333333333143,
+      "deaths": 0,
+      "unlocked": 40
+    },
+    {
+      "id": 40,
+      "name": "Halfway II",
+      "frames": 774,
+      "time": 12.891666666666255,
+      "deaths": 0,
+      "unlocked": 41
+    },
+    {
+      "id": 41,
+      "name": "Switchback II",
+      "frames": 386,
+      "time": 6.433333333333288,
+      "deaths": 0,
+      "unlocked": 42
+    },
+    {
+      "id": 42,
+      "name": "Door Cycle",
+      "frames": 722,
+      "time": 12.024999999999638,
+      "deaths": 0,
+      "unlocked": 43
+    },
+    {
+      "id": 43,
+      "name": "Portal Cross",
+      "frames": 468,
+      "time": 7.537499999999892,
+      "deaths": 1,
+      "unlocked": 44
+    },
+    {
+      "id": 44,
+      "name": "Key Hunt",
+      "frames": 610,
+      "time": 10.158333333333077,
+      "deaths": 0,
+      "unlocked": 45
+    },
+    {
+      "id": 45,
+      "name": "Twin Vaults",
+      "frames": 533,
+      "time": 8.88333333333315,
+      "deaths": 0,
+      "unlocked": 46
+    },
+    {
+      "id": 46,
+      "name": "Fast Lanes II",
+      "frames": 532,
+      "time": 8.866666666666484,
+      "deaths": 0,
+      "unlocked": 47
+    },
+    {
+      "id": 47,
+      "name": "Pad Chain",
+      "frames": 617,
+      "time": 10.28333333333307,
+      "deaths": 0,
+      "unlocked": 48
+    },
+    {
+      "id": 48,
+      "name": "Lockstep",
+      "frames": 584,
+      "time": 9.724999999999769,
+      "deaths": 0,
+      "unlocked": 49
+    },
+    {
+      "id": 49,
+      "name": "The Squeeze II",
+      "frames": 584,
+      "time": 9.729166666666435,
+      "deaths": 0,
+      "unlocked": 50
+    },
+    {
+      "id": 50,
+      "name": "Exam Day",
+      "frames": 964,
+      "time": 16.058333333332744,
+      "deaths": 0,
+      "unlocked": 51
+    },
+    {
+      "id": 51,
+      "name": "Dot Storm II",
+      "frames": 533,
+      "time": 8.87083333333315,
+      "deaths": 0,
+      "unlocked": 52
+    },
+    {
+      "id": 52,
+      "name": "Portal Hell",
+      "frames": 327,
+      "time": 5.445833333333344,
+      "deaths": 0,
+      "unlocked": 53
+    },
+    {
+      "id": 53,
+      "name": "Keymaster II",
+      "frames": 881,
+      "time": 14.674999999999487,
+      "deaths": 0,
+      "unlocked": 54
+    },
+    {
+      "id": 54,
+      "name": "Warp Weave",
+      "frames": 386,
+      "time": 6.433333333333288,
+      "deaths": 0,
+      "unlocked": 55
+    },
+    {
+      "id": 55,
+      "name": "Vault III",
+      "frames": 1323,
+      "time": 22.041666666665737,
+      "deaths": 0,
+      "unlocked": 56
+    },
+    {
+      "id": 56,
+      "name": "No Room II",
+      "frames": 637,
+      "time": 10.612499999999718,
+      "deaths": 0,
+      "unlocked": 57
+    },
+    {
+      "id": 57,
+      "name": "Tempo II",
+      "frames": 639,
+      "time": 10.641666666666383,
+      "deaths": 0,
+      "unlocked": 58
+    },
+    {
+      "id": 58,
+      "name": "Panic II",
+      "frames": 472,
+      "time": 7.858333333333207,
+      "deaths": 0,
+      "unlocked": 59
+    },
+    {
+      "id": 59,
+      "name": "Labyrinth II",
+      "frames": 1316,
+      "time": 21.670833333332425,
+      "deaths": 1,
+      "unlocked": 60
+    },
+    {
+      "id": 60,
+      "name": "Terminal Two",
+      "frames": 4165,
+      "time": 69.40416666668571,
+      "deaths": 0,
+      "unlocked": 61
+    },
+    {
+      "id": 61,
+      "name": "Inhuman",
+      "frames": 683,
+      "time": 11.374999999999675,
+      "deaths": 0,
+      "unlocked": 62
+    },
+    {
+      "id": 62,
+      "name": "Pad Roulette",
+      "frames": 855,
+      "time": 14.245833333332845,
+      "deaths": 0,
+      "unlocked": 63
+    },
+    {
+      "id": 63,
+      "name": "Key Largo",
+      "frames": 871,
+      "time": 14.504166666666164,
+      "deaths": 0,
+      "unlocked": 64
+    },
+    {
+      "id": 64,
+      "name": "Gauntlet III",
+      "frames": 1074,
+      "time": 17.645833333332654,
+      "deaths": 1,
+      "unlocked": 65
+    },
+    {
+      "id": 65,
+      "name": "Portal Prison",
+      "frames": 444,
+      "time": 7.3999999999999,
+      "deaths": 0,
+      "unlocked": 66
+    },
+    {
+      "id": 66,
+      "name": "Lockdown",
+      "frames": 1200,
+      "time": 19.99583333333252,
+      "deaths": 0,
+      "unlocked": 67
+    },
+    {
+      "id": 67,
+      "name": "Warp Storm",
+      "frames": 673,
+      "time": 11.21666666666635,
+      "deaths": 0,
+      "unlocked": 68
+    },
+    {
+      "id": 68,
+      "name": "Skeleton Key",
+      "frames": 687,
+      "time": 11.44999999999967,
+      "deaths": 0,
+      "unlocked": 69
+    },
+    {
+      "id": 69,
+      "name": "Crossfire III",
+      "frames": 480,
+      "time": 7.987499999999867,
+      "deaths": 0,
+      "unlocked": 70
+    },
+    {
+      "id": 70,
+      "name": "Seventy",
+      "frames": 695,
+      "time": 11.574999999999664,
+      "deaths": 0,
+      "unlocked": 71
+    },
+    {
+      "id": 71,
+      "name": "Dot Rain",
+      "frames": 703,
+      "time": 11.712499999999656,
+      "deaths": 0,
+      "unlocked": 72
+    },
+    {
+      "id": 72,
+      "name": "Teleport Trap",
+      "frames": 441,
+      "time": 7.349999999999903,
+      "deaths": 0,
+      "unlocked": 73
+    },
+    {
+      "id": 73,
+      "name": "Keyhole",
+      "frames": 1285,
+      "time": 21.154166666665787,
+      "deaths": 1,
+      "unlocked": 74
+    },
+    {
+      "id": 74,
+      "name": "Phase Prison",
+      "frames": 599,
+      "time": 9.970833333333088,
+      "deaths": 0,
+      "unlocked": 75
+    },
+    {
+      "id": 75,
+      "name": "Portal Vault",
+      "frames": 1093,
+      "time": 18.20833333333262,
+      "deaths": 0,
+      "unlocked": 76
+    },
+    {
+      "id": 76,
+      "name": "Marathon II",
+      "frames": 752,
+      "time": 12.533333333332942,
+      "deaths": 0,
+      "unlocked": 77
+    },
+    {
+      "id": 77,
+      "name": "Switchback III",
+      "frames": 560,
+      "time": 9.333333333333124,
+      "deaths": 0,
+      "unlocked": 78
+    },
+    {
+      "id": 78,
+      "name": "Door Slam",
+      "frames": 907,
+      "time": 15.116666666666129,
+      "deaths": 0,
+      "unlocked": 79
+    },
+    {
+      "id": 79,
+      "name": "Portal Panic",
+      "frames": 370,
+      "time": 6.16249999999997,
+      "deaths": 0,
+      "unlocked": 80
+    },
+    {
+      "id": 80,
+      "name": "Eighty",
+      "frames": 829,
+      "time": 13.804166666666204,
+      "deaths": 0,
+      "unlocked": 81
+    },
+    {
+      "id": 81,
+      "name": "Inhuman II",
+      "frames": 783,
+      "time": 13.045833333332913,
+      "deaths": 0,
+      "unlocked": 82
+    },
+    {
+      "id": 82,
+      "name": "Pad Maze",
+      "frames": 545,
+      "time": 9.079166666666472,
+      "deaths": 0,
+      "unlocked": 83
+    },
+    {
+      "id": 83,
+      "name": "Key Storm",
+      "frames": 737,
+      "time": 12.270833333332957,
+      "deaths": 0,
+      "unlocked": 84
+    },
+    {
+      "id": 84,
+      "name": "Warp Labyrinth",
+      "frames": 1477,
+      "time": 24.358333333332272,
+      "deaths": 1,
+      "unlocked": 85
+    },
+    {
+      "id": 85,
+      "name": "Lockpick",
+      "frames": 766,
+      "time": 12.762499999999596,
+      "deaths": 0,
+      "unlocked": 86
+    },
+    {
+      "id": 86,
+      "name": "Crossfire IV",
+      "frames": 562,
+      "time": 9.358333333333123,
+      "deaths": 0,
+      "unlocked": 87
+    },
+    {
+      "id": 87,
+      "name": "Portal Vault",
+      "frames": 773,
+      "time": 12.879166666666256,
+      "deaths": 0,
+      "unlocked": 88
+    },
+    {
+      "id": 88,
+      "name": "The Squeeze III",
+      "frames": 1101,
+      "time": 18.09166666666596,
+      "deaths": 1,
+      "unlocked": 89
+    },
+    {
+      "id": 89,
+      "name": "Dot Hell",
+      "frames": 786,
+      "time": 12.845833333332925,
+      "deaths": 1,
+      "unlocked": 90
+    },
+    {
+      "id": 90,
+      "name": "Ninety",
+      "frames": 982,
+      "time": 16.36666666666606,
+      "deaths": 0,
+      "unlocked": 91
+    },
+    {
+      "id": 91,
+      "name": "Tempo III",
+      "frames": 811,
+      "time": 13.508333333332887,
+      "deaths": 0,
+      "unlocked": 92
+    },
+    {
+      "id": 92,
+      "name": "Keymaster III",
+      "frames": 846,
+      "time": 14.091666666666187,
+      "deaths": 0,
+      "unlocked": 93
+    },
+    {
+      "id": 93,
+      "name": "Panic III",
+      "frames": 807,
+      "time": 13.449999999999557,
+      "deaths": 0,
+      "unlocked": 94
+    },
+    {
+      "id": 94,
+      "name": "Warp Hell",
+      "frames": 543,
+      "time": 9.04583333333314,
+      "deaths": 0,
+      "unlocked": 95
+    },
+    {
+      "id": 95,
+      "name": "Penultimate",
+      "frames": 7027,
+      "time": 116.86249999997588,
+      "deaths": 1,
+      "unlocked": 96
+    },
+    {
+      "id": 96,
+      "name": "Vault Zero",
+      "frames": 1115,
+      "time": 18.579166666665934,
+      "deaths": 0,
+      "unlocked": 97
+    },
+    {
+      "id": 97,
+      "name": "Moving Walls",
+      "frames": 428,
+      "time": 7.129166666666582,
+      "deaths": 0,
+      "unlocked": 98
+    },
+    {
+      "id": 98,
+      "name": "Crush Alley",
+      "frames": 817,
+      "time": 13.366666666666228,
+      "deaths": 1,
+      "unlocked": 99
+    },
+    {
+      "id": 99,
+      "name": "Wall Street",
+      "frames": 486,
+      "time": 8.091666666666528,
+      "deaths": 0,
+      "unlocked": 100
+    },
+    {
+      "id": 100,
+      "name": "Century",
+      "frames": 591,
+      "time": 9.849999999999762,
+      "deaths": 0,
+      "unlocked": 101
+    },
+    {
+      "id": 101,
+      "name": "Piston",
+      "frames": 1820,
+      "time": 30.07916666666528,
+      "deaths": 1,
+      "unlocked": 102
+    },
+    {
+      "id": 102,
+      "name": "Gatekeeper",
+      "frames": 486,
+      "time": 8.095833333333195,
+      "deaths": 0,
+      "unlocked": 103
+    },
+    {
+      "id": 103,
+      "name": "Shifting Maze",
+      "frames": 947,
+      "time": 15.783333333332758,
+      "deaths": 0,
+      "unlocked": 104
+    },
+    {
+      "id": 104,
+      "name": "Crush Course",
+      "frames": 698,
+      "time": 11.633333333332994,
+      "deaths": 0,
+      "unlocked": 105
+    },
+    {
+      "id": 105,
+      "name": "Key Press",
+      "frames": 1233,
+      "time": 20.549999999999155,
+      "deaths": 0,
+      "unlocked": 106
+    },
+    {
+      "id": 106,
+      "name": "Conveyor",
+      "frames": 1004,
+      "time": 16.72916666666604,
+      "deaths": 0,
+      "unlocked": 107
+    },
+    {
+      "id": 107,
+      "name": "Airlock",
+      "frames": 1056,
+      "time": 17.095833333332685,
+      "deaths": 2,
+      "unlocked": 108
+    },
+    {
+      "id": 108,
+      "name": "Piston II",
+      "frames": 479,
+      "time": 7.970833333333201,
+      "deaths": 0,
+      "unlocked": 109
+    },
+    {
+      "id": 109,
+      "name": "Vault Door",
+      "frames": 541,
+      "time": 9.008333333333143,
+      "deaths": 0,
+      "unlocked": 110
+    },
+    {
+      "id": 110,
+      "name": "Switchback III",
+      "frames": 2796,
+      "time": 46.59583333334345,
+      "deaths": 0,
+      "unlocked": 111
+    },
+    {
+      "id": 111,
+      "name": "Portal Press",
+      "frames": 762,
+      "time": 12.6874999999996,
+      "deaths": 0,
+      "unlocked": 112
+    },
+    {
+      "id": 112,
+      "name": "Crush Vault",
+      "frames": 1028,
+      "time": 16.874999999999364,
+      "deaths": 1,
+      "unlocked": 113
+    },
+    {
+      "id": 113,
+      "name": "Tempo Walls",
+      "frames": 979,
+      "time": 16.30833333333273,
+      "deaths": 0,
+      "unlocked": 114
+    },
+    {
+      "id": 114,
+      "name": "Gauntlet III",
+      "frames": 1009,
+      "time": 16.816666666666034,
+      "deaths": 0,
+      "unlocked": 114
+    }
+  ],
+  "assertions": {
+    "campaignClears": 114,
+    "saveRecords": 114,
+    "settingsPersisted": true,
+    "pauseFreezes": true,
+    "actualKeyboard": true,
+    "actualTouchMovement": true,
+    "touchCancel": true,
+    "noMobileOverflow": true,
+    "pageErrors": []
+  }
+}

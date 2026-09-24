@@ -1,0 +1,174 @@
+{
+  "edition": "codex-work-vanilla-adapted",
+  "title": "Second Wind Arcade",
+  "locked_submission_edition": "second-wind",
+  "model": {
+    "agent": "Codex",
+    "identifier": null,
+    "version": null,
+    "selection": "inherited app default; exact identifier not exposed"
+  },
+  "substrate": {
+    "app": "ChatGPT Work",
+    "version": null,
+    "version_note": "not exposed",
+    "environment": "existing managed Linux x86_64 container"
+  },
+  "configuration": {
+    "variant": "vanilla",
+    "reasoning_effort": null,
+    "effort_note": "inherited default; exact setting not exposed",
+    "model_override": false,
+    "effort_override": false,
+    "launcher_revision": "0290bc8",
+    "launcher_sha256": "81a945cb129a43d61e6e4ee8242cb85771618e82df95976c8fd5d9ecf7de71c2",
+    "checkpoint_commit": "bfac2ad697784097d11ef9cb75b6f2e36eeec82e",
+    "first_message_sha256_without_final_newline": "2c5f6de25ed5a9eb056dbd2c551504d466bb3918589dfd039b736359daa63f10",
+    "generation_prompt_messages": 1,
+    "generation_followup_messages": 0,
+    "network_policy": "unchanged; no claim that full internet was configured",
+    "tools": {
+      "node": "24.21.0",
+      "uv": "0.12.17",
+      "IPython": "9.17.1",
+      "Harbor": "0.23.0",
+      "agent-browser": "0.38.1",
+      "Chrome_Headless_Shell": "154.0.8037.57"
+    },
+    "customizations": [
+      "Official Chrome Headless Shell substituted after normal Chrome/agent-browser startup failures.",
+      "Browser and local server executed together because execution network contexts were isolated.",
+      "No credential bundle created; no GitHub token added."
+    ]
+  },
+  "helpers": [
+    {
+      "role": "fresh vanilla generation agent",
+      "model": "inherited default; identifier unexposed"
+    },
+    {
+      "role": "autonomous arena, survival/LAN, runner, shooters and maze specialist/reviewer agents",
+      "model": "individual model identifiers not separately exposed in final evidence"
+    },
+    {
+      "role": "operator launcher/runtime review and final delivery/metadata audits",
+      "model": "native inherited defaults; identifiers unexposed"
+    }
+  ],
+  "human_interventions": [
+    "User requested execution in the existing box and adaptation to blockers; no human gameplay steering or mid-run answer was supplied.",
+    "After the tarball handoff, the user explicitly requested publication to ds4cc.com/magga v2."
+  ],
+  "operator_interventions": [
+    "Prepared checkout and runtime before sending the exact vanilla message.",
+    "Generation session was unexpectedly interrupted after the completed packaged gate and before locking.",
+    "Recovered final gate evidence, refreshed cover hashes, and finalized metadata, source commit, lock and publication package. No game code changed during operator recovery."
+  ],
+  "started_at": "2026-09-23T23:27:33.018420+00:00",
+  "finished_at": "2026-09-24T01:09:58.362109+00:00",
+  "locked_at": "2026-09-24T01:05:43.023Z",
+  "resource_usage": {
+    "tokens": null,
+    "cost": null,
+    "tokens_cost_note": "not exposed",
+    "wall_seconds_to_lock": 5890.005,
+    "wall_seconds_to_package_metadata": 6145.344,
+    "timing_note": "Observed elapsed time from recorded benchmark start through locking and operator recovery; not a measured model-only duration."
+  },
+  "lock": {
+    "digest": "94d6bd2e7b3bbb4e47663dc2d5f628c100288525f748e7d27580777bb0bd6cf4",
+    "commit": "336e14412a6a78e175ed2ef03d37c55467eae811",
+    "file_count": 1213,
+    "parent": "db035922f3ee06990cff739fe8aab3f76bc5b597"
+  },
+  "receipt": "MLNW-8138CF25ABF1",
+  "envelope_peek_check": {
+    "status": "PASS",
+    "method": "git log -S<receipt> <lock-commit>^",
+    "pre_lock_matches": 0,
+    "limitation": "This check searches committed history; operator also observed no pre-lock envelope opening."
+  },
+  "verification": {
+    "default_gate": {
+      "command": "node delivery/records/verify.mjs",
+      "status": "PASS",
+      "completed_at": "2026-09-24T00:55:36.558Z",
+      "observed": "60/60 rule tests, 114/114 maze validation, 14/14 desktop/mobile nested-path game cases, runner real-time smoke and two-client LAN match",
+      "evidence": "records/evidence/offline-final/results.json"
+    },
+    "full_replay_command": {
+      "command": "node delivery/records/verify.mjs --full",
+      "status": "AVAILABLE; not claimed as a single combined completed invocation",
+      "observed": "Individual full campaign/extended drivers completed separately; exact commands, receipts and input methods are in each ship record."
+    },
+    "campaigns": [
+      {
+        "game": "Crown & Sand",
+        "observed": "80 victories on desktop and emulated touch; 8400 seeded rules campaigns; settings, saves, failure/retry and nested-copy checks",
+        "record": "records/ship-records/arena.md"
+      },
+      {
+        "game": "Deadlock Rooms",
+        "observed": "Two-client 5-0 LAN match, reconnect/pause/music lifecycle; solo survival to wave 5; local co-op, all rooms/weapons and touch",
+        "record": "records/ship-records/boxhead.md"
+      },
+      {
+        "game": "Starfall Flock",
+        "observed": "110 encounters across 11 sectors; 196500 points, five lives, zero checkpoint retries, zero page errors/external requests",
+        "record": "records/ship-records/starfall-flock.md"
+      },
+      {
+        "game": "Cluck Horizon",
+        "observed": "22 encounters; 41175 points, five lives, zero checkpoint retries; both touch layouts",
+        "record": "records/ship-records/cluck-horizon.md"
+      },
+      {
+        "game": "Vector Vault",
+        "observed": "114/114 earned clears; deterministic validator and native-input/visual checks",
+        "record": "records/ship-records/vector-vault.md"
+      },
+      {
+        "game": "Pulsebound",
+        "observed": "All five courses, 588 seconds total course time, 403 keyboard presses, zero deaths; copied real-time touch/audio smoke",
+        "record": "records/ship-records/pulsebound.md"
+      },
+      {
+        "game": "Burger Tycoon",
+        "observed": "Desktop/touch survival through 300 displayed company seconds, pause, settings, reload, deliberate failure and restart, zero page errors",
+        "record": "records/ship-records/burger-tycoon.md"
+      }
+    ],
+    "site_integrity": {
+      "status": "PASS",
+      "files": 188,
+      "evidence": "records/evidence/release-copy.json",
+      "observed": "Byte-identical to final dist; all seven reachable entries; screenshot covers traced to actual game captures."
+    }
+  },
+  "limitations": [
+    "Physical phones, Safari/Firefox, real Wi-Fi latency and modest physical-device performance were not certified; mobile tests used Chromium touch emulation and LAN used two browser clients on one host.",
+    "Full maze and shooter proofs use controlled clocks and synthetic DOM events; the runner campaign uses native keyboard input with a controlled browser clock. Native real-time input checks are separate and documented. No full-campaign wall-clock audio synchronization or human audio audition is claimed.",
+    "These are original evocations at documented campaign scale. Exact proprietary formulas, original wave/level geometry, historical roster, art and music parity are not claimed.",
+    "Offline verification bundles Linux x86_64 Chrome Headless Shell and JavaScript dependencies; Node 22.18+ and standard Chromium system libraries are prerequisites. Other operating-system verification runtimes are not bundled.",
+    "Deadlock LAN requires the included Node host and an open authority tab, supports two players, and has no host migration. Same-phone local co-op touch controls are not claimed.",
+    "The existing Work container/home and network policy were reused. Browser setup required adaptation; some successful untouched-baseline play occurred after initial source edits, as disclosed in the relevant records.",
+    "The native generation agent was interrupted after producing the release and completed packaged gate but before locking. The operator finalized metadata, evidence and delivery without changing the game code. Exact model/effort identifiers were not exposed; defaults were not overridden."
+  ],
+  "state": "prepared for GitHub pull-request submission; deployment is pending catalog-operator review",
+  "publication_checks": {
+    "catalog_markup": "existing class vocabulary and exact prompt link",
+    "desktop_viewport": "1365x1100",
+    "mobile_viewport": "390x844",
+    "status": "PASS: three images loaded, seven names, play link present, no horizontal overflow; visually reviewed",
+    "covers": "byte-identical copies of three locked previews",
+    "launcher_overlay": false
+  },
+  "submission": {
+    "repository": "VeigaPunk/MAKEARMORGAMESGREATAGAIN-submissions",
+    "branch": "submission/codex-work-vanilla-adapted",
+    "base": "main",
+    "layout": "v2/codex-work-vanilla-adapted/locked/ contains the whole original delivery folder",
+    "access": "connected account owns the repository; branch used instead of self-fork",
+    "locked_files_changed": false
+  }
+}

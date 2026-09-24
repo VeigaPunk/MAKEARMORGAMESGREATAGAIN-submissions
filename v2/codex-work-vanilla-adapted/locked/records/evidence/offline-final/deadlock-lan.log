@@ -1,0 +1,10 @@
+{"room":"3E3776","before":[{"x":320,"y":200},{"x":220,"y":200}],"after":[{"x":409.68619999999976,"y":200},{"x":220,"y":278.1770000000001}],"guest":[{"x":409.68619999999976,"y":200},{"x":220,"y":278.1770000000001}],"dm":{"kills":[5,0],"hp":[100,-8]},"guestMusic":{"pause":true,"resume":true,"stableLoop":true,"victory":true,"naturalDefeat":true,"retry":true},"errors":[]}
+✔ two real LAN clients: lobby, movement, shots, pause, reconnect, deathmatch and leave (58318.433225ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58805.466339

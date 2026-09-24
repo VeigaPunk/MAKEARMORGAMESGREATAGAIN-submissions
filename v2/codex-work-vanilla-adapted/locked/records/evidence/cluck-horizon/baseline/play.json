@@ -1,0 +1,93 @@
+{
+  "errors": [],
+  "state": {
+    "mode": "play",
+    "pack": "cluck",
+    "chapter": 1,
+    "wave": 1,
+    "wavesTotal": 3,
+    "score": 450,
+    "best": 0,
+    "lives": 3,
+    "missiles": 1,
+    "weapon": 0,
+    "weaponName": "SOUP LASER",
+    "shipX": 257.918897295195,
+    "shipY": 480,
+    "shipAlive": true,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 274.80091117752926,
+        "y": 89.06666666666678,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 288.6925931062628,
+        "y": 91.92666666666679,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 483.09093165628127,
+        "y": 86.20666666666676,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 490.80091117752926,
+        "y": 89.06666666666678,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 504.6925931062628,
+        "y": 91.92666666666679,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 699.0909316562813,
+        "y": 86.20666666666676,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 483.09093165628127,
+        "y": 142.20666666666676,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 699.0909316562813,
+        "y": 142.20666666666676,
+        "hp": 1,
+        "dive": false
+      }
+    ],
+    "eggs": 1,
+    "pickups": [
+      {
+        "x": 687.150163299713,
+        "y": 323.45333333333355,
+        "kind": "gift"
+      },
+      {
+        "x": 628.2172176643539,
+        "y": 305.8333333333331,
+        "kind": "food"
+      }
+    ],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": true,
+    "kills": 4,
+    "titleSel": 1,
+    "lastDeath": null
+  }
+}

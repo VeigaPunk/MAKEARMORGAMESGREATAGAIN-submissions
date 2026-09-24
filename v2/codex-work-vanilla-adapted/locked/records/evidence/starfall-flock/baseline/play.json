@@ -1,0 +1,75 @@
+{
+  "errors": [],
+  "state": {
+    "mode": "play",
+    "pack": "replica",
+    "chapter": 1,
+    "wave": 1,
+    "wavesTotal": 3,
+    "score": 800,
+    "best": 0,
+    "lives": 3,
+    "missiles": 1,
+    "weapon": 0,
+    "weaponName": "PEA SHOOTER",
+    "shipX": 301.2506980878518,
+    "shipY": 480,
+    "shipAlive": true,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 462.6201170121617,
+        "y": 87.13066666666677,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 481.942509403315,
+        "y": 89.46666666666681,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 678.6201170121617,
+        "y": 87.13066666666677,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 462.6201170121617,
+        "y": 143.13066666666677,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 678.6201170121617,
+        "y": 143.13066666666677,
+        "hp": 1,
+        "dive": false
+      }
+    ],
+    "eggs": 1,
+    "pickups": [
+      {
+        "x": 459.3224942088635,
+        "y": 451.8336666666701,
+        "kind": "gift"
+      },
+      {
+        "x": 716.3454858506177,
+        "y": 378.10500000000167,
+        "kind": "food"
+      }
+    ],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": true,
+    "kills": 7,
+    "titleSel": 1,
+    "lastDeath": null
+  }
+}

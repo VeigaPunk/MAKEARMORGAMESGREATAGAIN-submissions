@@ -1,0 +1,448 @@
+{
+  "running": false,
+  "fullPages": false,
+  "filters": [],
+  "expectedCases": 14,
+  "started": "2026-09-24T00:53:18.043Z",
+  "site": "/workspace/scratch/05b3d5bae7f8/delivery/site",
+  "mount": "/release/check/",
+  "browser": "/tmp/second-wind-verification-T6tMgX/chromium/chrome-headless-shell",
+  "method": "Fresh browser contexts; real click/tap/keyboard/CDP touch input; read-only game state; nested static hosting. No outcome or progress injection.",
+  "manifest": {
+    "version": "2.0.0",
+    "distribution": "static",
+    "edition": "second-wind",
+    "games": [
+      "boxhead",
+      "impossible",
+      "burger-tycoon",
+      "chicken-invaders",
+      "chicken-invaders-original",
+      "swords-and-sandals",
+      "hardest"
+    ]
+  },
+  "launcher": [
+    {
+      "device": "desktop",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true
+    }
+  ],
+  "cases": [
+    {
+      "game": "boxhead",
+      "title": "Deadlock Rooms",
+      "device": "desktop",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "playing",
+        "paused": false,
+        "x": 361.38619999999986,
+        "y": 200
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/"
+    },
+    {
+      "game": "impossible",
+      "title": "Pulsebound",
+      "device": "desktop",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "x": 171,
+        "y": 271.3472222222221,
+        "progress": 0.00475
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/index.html"
+    },
+    {
+      "game": "burger-tycoon",
+      "title": "Burger Tycoon",
+      "device": "desktop",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "time": 0.10234999999962748,
+        "cash": 500.1023499999999,
+        "crops": 35.01535249999989
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/index.html"
+    },
+    {
+      "game": "chicken-invaders",
+      "title": "Starfall Flock",
+      "device": "desktop",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "input": {
+        "kind": "held native ArrowRight and Space",
+        "before": {
+          "mode": "play",
+          "paused": false,
+          "x": 480,
+          "y": 480,
+          "alive": true,
+          "lives": 3,
+          "score": 0
+        },
+        "after": {
+          "mode": "play",
+          "paused": false,
+          "x": 484.7861622182244,
+          "y": 480,
+          "alive": true,
+          "lives": 3,
+          "score": 0
+        }
+      },
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "x": 494.596255838351,
+        "y": 480,
+        "alive": true,
+        "lives": 3,
+        "score": 0
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/"
+    },
+    {
+      "game": "chicken-invaders-original",
+      "title": "Cluck Horizon",
+      "device": "desktop",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "input": {
+        "kind": "held native ArrowRight and Space",
+        "before": {
+          "mode": "play",
+          "paused": false,
+          "x": 480,
+          "y": 480,
+          "alive": true,
+          "lives": 3,
+          "score": 0
+        },
+        "after": {
+          "mode": "play",
+          "paused": false,
+          "x": 485.283395291141,
+          "y": 480,
+          "alive": true,
+          "lives": 3,
+          "score": 0
+        }
+      },
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "x": 499.5894515720784,
+        "y": 480,
+        "alive": true,
+        "lives": 3,
+        "score": 0
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/"
+    },
+    {
+      "game": "swords-and-sandals",
+      "title": "Crown & Sand",
+      "device": "desktop",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "arena",
+        "paused": false,
+        "hp": 43,
+        "opponentHp": 22,
+        "round": 1
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "Inline adjustable volume verified",
+      "returnLink": "/release/check/index.html"
+    },
+    {
+      "game": "hardest",
+      "title": "Vector Vault",
+      "device": "desktop",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "time": 0.3291666666666667,
+        "level": 1,
+        "deaths": 0
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/index.html"
+    },
+    {
+      "game": "boxhead",
+      "title": "Deadlock Rooms",
+      "device": "mobile",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "playing",
+        "paused": false,
+        "x": 369.783905882353,
+        "y": 200
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/"
+    },
+    {
+      "game": "impossible",
+      "title": "Pulsebound",
+      "device": "mobile",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "x": 204,
+        "y": 271.3472222222221,
+        "progress": 0.005666666666666667
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/index.html"
+    },
+    {
+      "game": "burger-tycoon",
+      "title": "Burger Tycoon",
+      "device": "mobile",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "time": 0.099025,
+        "cash": 500.099025,
+        "crops": 35.01485374999994
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/index.html"
+    },
+    {
+      "game": "chicken-invaders",
+      "title": "Starfall Flock",
+      "device": "mobile",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "input": {
+        "kind": "held native touch drag",
+        "before": {
+          "mode": "play",
+          "paused": false,
+          "x": 480,
+          "y": 480,
+          "alive": true,
+          "lives": 3,
+          "score": 0
+        },
+        "after": {
+          "mode": "play",
+          "paused": false,
+          "x": 513.5728318316471,
+          "y": 480,
+          "alive": true,
+          "lives": 3,
+          "score": 0
+        }
+      },
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "x": 530.8229483257186,
+        "y": 480,
+        "alive": true,
+        "lives": 3,
+        "score": 0
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/"
+    },
+    {
+      "game": "chicken-invaders-original",
+      "title": "Cluck Horizon",
+      "device": "mobile",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "input": {
+        "kind": "held native touch drag",
+        "before": {
+          "mode": "play",
+          "paused": false,
+          "x": 480,
+          "y": 480,
+          "alive": true,
+          "lives": 3,
+          "score": 0
+        },
+        "after": {
+          "mode": "play",
+          "paused": false,
+          "x": 500.78516788206036,
+          "y": 480,
+          "alive": true,
+          "lives": 3,
+          "score": 0
+        }
+      },
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "x": 520.2117069077503,
+        "y": 480,
+        "alive": true,
+        "lives": 3,
+        "score": 0
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/"
+    },
+    {
+      "game": "swords-and-sandals",
+      "title": "Crown & Sand",
+      "device": "mobile",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "arena",
+        "paused": false,
+        "hp": 43,
+        "opponentHp": 22,
+        "round": 1
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "Inline adjustable volume verified",
+      "returnLink": "/release/check/index.html"
+    },
+    {
+      "game": "hardest",
+      "title": "Vector Vault",
+      "device": "mobile",
+      "errors": [],
+      "consoleErrors": [],
+      "external": [],
+      "httpErrors": [],
+      "failedRequests": [],
+      "pass": true,
+      "gameplay": {
+        "mode": "play",
+        "paused": false,
+        "time": 0.4624999999999996,
+        "level": 1,
+        "deaths": 0
+      },
+      "fullPage": "Skipped optional full-page capture to reduce load; FULL_PAGE=1 enables it.",
+      "pause": "pause/resume verified",
+      "settings": "visible controls, adjustable volume, safe close verified",
+      "returnLink": "/release/check/index.html"
+    }
+  ],
+  "failures": [],
+  "finished": "2026-09-24T00:54:33.096Z",
+  "passed": true
+}

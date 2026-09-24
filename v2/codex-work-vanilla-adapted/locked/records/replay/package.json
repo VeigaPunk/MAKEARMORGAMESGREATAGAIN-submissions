@@ -1,0 +1,26 @@
+{
+  "name": "armor-arcade-release",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Second Wind: seven self-contained browser games with reproducible player verification",
+  "scripts": {
+    "setup": "npm ci && npm --prefix MAGA-everything/02-code/armor-games ci",
+    "build": "node tooling/build.mjs",
+    "start": "node tooling/serve.mjs",
+    "typecheck": "npm --prefix MAGA-everything/02-code/armor-games run typecheck --workspaces --if-present",
+    "test": "node --test verification/tests/*.test.mjs hardest/regression.mjs MAGA-everything/02-code/armor-games/apps/swords-and-sandals/tests/progression.test.mjs MAGA-everything/02-code/armor-games/packages/shmup-core/tests/campaign.test.mjs MAGA-everything/02-code/armor-games/apps/impossible/tests/campaign.test.mjs MAGA-everything/02-code/armor-games/apps/burger-tycoon/tests/economy.test.mjs MAGA-everything/02-code/armor-games/apps/boxhead/tests/rules.test.mjs",
+    "test:browser": "node tooling/verify-offline.mjs --browser-only",
+    "verify": "npm run typecheck && npm test && node hardest/validate.mjs && npm run build && npm run test:browser",
+    "test:browser:smoke": "playwright test",
+    "package": "npm run build && node tooling/package.mjs",
+    "test:offline": "node tooling/verify-offline.mjs",
+    "test:campaigns": "node tooling/verify-offline.mjs --full"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "buildRoot": "MAGA-everything/02-code/armor-games/apps/chicken-invaders/dist",
+  "copiedRoot": "delivery/site/chicken-invaders",
+  "entry": "assets/index-BH05V7HE.js",
+  "entrySha256": "83d272d9267aafc5181a8d572971829f0e1b463cfa1b71881119d90fb3d3ca5f",
+  "assetCount": 21,
+  "identicalProductionAssets": true,
+  "note": "The copied index.html adds the collection return control; the referenced game JavaScript, vendor runtime and original art match the browser-tested app build. Unreferenced old hashed bundles are excluded.",
+  "assets": [
+    {
+      "file": "art/boss-admiral.svg",
+      "sha256": "4a50f683baa0320f7c592d82e27f601d0df99ce878808d922b9ff0592a276ca8"
+    },
+    {
+      "file": "art/boss-queen.svg",
+      "sha256": "feafb286a1468182f494820a9bbf332945377bf46cacddc9e1144fb250c33094"
+    },
+    {
+      "file": "art/boss-solar-1.svg",
+      "sha256": "3c7cf52600b7d7c01d0040a5ab4bf5318de16b35c3d9d3e0a36d2ac8f83d93e3"
+    },
+    {
+      "file": "art/boss-solar-10.svg",
+      "sha256": "a234b223327e126f26d971b0d7194618c3142096bf17b0f4d0e28614d598c260"
+    },
+    {
+      "file": "art/boss-solar-11.svg",
+      "sha256": "a28d980cdc2cb3ed94acc162c1dd1077a6c6373248848cc9fb579f7153f1cfe0"
+    },
+    {
+      "file": "art/boss-solar-2.svg",
+      "sha256": "ab3ed23bb7176018fcd9fa43252eced85c1ffc18fd25893e7a4dae1002d7e4c3"
+    },
+    {
+      "file": "art/boss-solar-3.svg",
+      "sha256": "474c75a0b2d83471e30f0bbbf605115cfb5df787eda7b49abb50eb57643b7c37"
+    },
+    {
+      "file": "art/boss-solar-4.svg",
+      "sha256": "739e3bd4965e68824cd0acab567aeb95609741368ad891c653f71197e6f35268"
+    },
+    {
+      "file": "art/boss-solar-5.svg",
+      "sha256": "dddbd054f9c7b430c61c8db3f18ccd6734179ae93ab9272aec1c80174d1cd1fd"
+    },
+    {
+      "file": "art/boss-solar-6.svg",
+      "sha256": "970ffb7ebe638963c3f20bee5604737b8204a69b4e3c3299318767237e16b29a"
+    },
+    {
+      "file": "art/boss-solar-7.svg",
+      "sha256": "bf3f5fbdf760eb83a2615f04eee73194f0f76e3bb2fc4ccb0eaf8840a14a5851"
+    },
+    {
+      "file": "art/boss-solar-8.svg",
+      "sha256": "89f1d4045a6e1f8e0743c9e3cfc8877d87de248dca08ca1d05cd6bd143e5beb3"
+    },
+    {
+      "file": "art/boss-solar-9.svg",
+      "sha256": "65e2f125ca40e4177440733506b53cae4e509c7762509610ed52bf1973cbcfd5"
+    },
+    {
+      "file": "art/enemy-emberwing.svg",
+      "sha256": "43d87597d58e1a08e617e2316fbdac6d8096ba7c9ab950e1017b22689082d693"
+    },
+    {
+      "file": "art/enemy-prism.svg",
+      "sha256": "89cfdaab78e2fadb2df24569b304540d081003cd1ba15eee14f012b7277b1109"
+    },
+    {
+      "file": "art/enemy-scout.svg",
+      "sha256": "ed83388e8d7849b294e4f1db38966ed10afb2d1a3bc1ebe9271de4b8d32b9066"
+    },
+    {
+      "file": "art/ship-stargazer.svg",
+      "sha256": "f48aec20a66fffcffc696c29d3ea74a419cd8c07dedaac94ad7a1dff4ddec052"
+    },
+    {
+      "file": "art/title-starfall.svg",
+      "sha256": "d67fd7c3606e2dec4a0e1dc29cb96848295bc2d6cdaeb424be8698d45347bad8"
+    },
+    {
+      "file": "assets/index-BH05V7HE.js",
+      "sha256": "83d272d9267aafc5181a8d572971829f0e1b463cfa1b71881119d90fb3d3ca5f"
+    },
+    {
+      "file": "vendor/pixi.min.mjs",
+      "sha256": "2f69e90f5b1980e6ea244bacfb3fa1eb457e16ddcb0a602b694642658956f2ef"
+    },
+    {
+      "file": "vendor/webworker.min.mjs",
+      "sha256": "cc4f8b34d85884705186b4a705d9d36ba4eef4bcdff4e6c75f13faaf19fb848d"
+    }
+  ]
+}

@@ -1,0 +1,1267 @@
+{
+  "app": "chicken-invaders-original",
+  "siteRoot": "/workspace/scratch/05b3d5bae7f8/delivery/site",
+  "method": "Native Playwright keyboard events, normal browser wall clock/rAF, fresh context; read-only __maga telemetry; no gameplay, save or clock writes; CDP focus emulation only; no fire/missile commands",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "inputs": [
+    {
+      "elapsedMs": 693,
+      "type": "press",
+      "code": "Enter"
+    },
+    {
+      "elapsedMs": 911,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 3575,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 3587,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 3669,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 3688,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 3771,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 3797,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 4006,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 4022,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 4192,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 4195,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 4291,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 4299,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 4800,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 4809,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 4901,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 4908,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 4912,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 5104,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 5109,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 5198,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 5203,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 5887,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 5906,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 6117,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 6118,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 6668,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 6670,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 6671,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 6832,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 6834,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 6918,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 6923,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 7096,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 7105,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 7197,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 7210,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 7518,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 7545,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 8077,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 8081,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 8252,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 10200,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 10208,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 10606,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 10608,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 10710,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 10878,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 10996,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 11019,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 11621,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 11705,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 11709,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 11998,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 12004,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 12177,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 12360,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 12742,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 12746,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 12992,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 13004,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 13098,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 13105,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 13204,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 13214,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 13293,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 13296,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 13487,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 13489,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 13567,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 15004,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 15167,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 15694,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 15701,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 15868,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 16024,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 16723,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 17056,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 17068,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 17147,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 17168,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 17329,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 17339,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 17417,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 17428,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 18228,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 18768,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 19788,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 19790,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 20018,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 26718,
+      "type": "press",
+      "code": "KeyR"
+    },
+    {
+      "elapsedMs": 32276,
+      "type": "press",
+      "code": "Enter"
+    }
+  ],
+  "losses": [
+    {
+      "elapsedMs": 8252,
+      "from": 3,
+      "to": 2,
+      "cause": {
+        "cause": "egg",
+        "x": 642,
+        "y": 345,
+        "t": 2.5
+      },
+      "ship": {
+        "x": 642.2998733559771,
+        "y": 345.676895689449,
+        "vx": 1.6010131521823334,
+        "vy": -8.748498848922576,
+        "alive": false,
+        "invuln": 0
+      }
+    },
+    {
+      "elapsedMs": 13566,
+      "from": 2,
+      "to": 1,
+      "cause": {
+        "cause": "egg",
+        "x": 553,
+        "y": 355,
+        "t": 5.7
+      },
+      "ship": {
+        "x": 553.5508380358782,
+        "y": 355.41595673549676,
+        "vx": 61.59329571297778,
+        "vy": 0.005679449362465749,
+        "alive": false,
+        "invuln": 0
+      }
+    },
+    {
+      "elapsedMs": 20740,
+      "from": 1,
+      "to": 0,
+      "cause": {
+        "cause": "egg",
+        "x": 637,
+        "y": 355,
+        "t": 10
+      },
+      "ship": {
+        "x": 637.2930355066641,
+        "y": 355.4166666516128,
+        "vx": -1.677617386637875,
+        "vy": 1.2043105039026415e-7,
+        "alive": false,
+        "invuln": 0
+      }
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "pass": true,
+  "build": {
+    "indexSha256": "afce9ef85377c0c6742e83428f6c2dce039b41ee3227abf0b975c3de9935936d",
+    "entry": "./assets/index-x8t4EDjn.js",
+    "entrySha256": "954b9b13f2d76bf61d341078ea5696b8a563203f20749526157b4a45603dce66"
+  },
+  "initial": {
+    "mode": "play",
+    "pack": "cluck",
+    "chapter": 1,
+    "sector": "THE BREAKFAST BELT",
+    "waveName": "Early birds",
+    "wave": 1,
+    "wavesTotal": 10,
+    "score": 0,
+    "best": 0,
+    "lives": 3,
+    "missiles": 2,
+    "weapon": 0,
+    "weaponName": "SOUP LASER",
+    "shipX": 480,
+    "shipY": 480,
+    "shipAlive": true,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 336,
+        "y": -3.93156168484565,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 408,
+        "y": -3.93156168484565,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 480,
+        "y": -3.93156168484565,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 552,
+        "y": -3.93156168484565,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 624,
+        "y": -3.93156168484565,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 336,
+        "y": -5.286696169380647,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 408,
+        "y": -5.286696169380647,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 480,
+        "y": -5.286696169380647,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 552,
+        "y": -5.286696169380647,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 624,
+        "y": -5.286696169380647,
+        "hp": 2,
+        "dive": false
+      }
+    ],
+    "eggs": 0,
+    "pickups": [],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": false,
+    "kills": 0,
+    "titleSel": 1,
+    "lastDeath": null,
+    "time": 0.13333333333333333,
+    "ship": {
+      "x": 480,
+      "y": 480,
+      "vx": 0,
+      "vy": 0,
+      "alive": true,
+      "invuln": 0
+    },
+    "eggsDetailed": [],
+    "chickensDetailed": [
+      {
+        "x": 336,
+        "y": -3.93156168484565,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 408,
+        "y": -3.93156168484565,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 480,
+        "y": -3.93156168484565,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 552,
+        "y": -3.93156168484565,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 624,
+        "y": -3.93156168484565,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 336,
+        "y": -5.286696169380647,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 408,
+        "y": -5.286696169380647,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 480,
+        "y": -5.286696169380647,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 552,
+        "y": -5.286696169380647,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 624,
+        "y": -5.286696169380647,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      }
+    ],
+    "fireHeld": false,
+    "bullets": 0,
+    "missilesFlying": 0
+  },
+  "gameover": {
+    "mode": "gameover",
+    "pack": "cluck",
+    "chapter": 1,
+    "sector": "THE BREAKFAST BELT",
+    "waveName": "Early birds",
+    "wave": 1,
+    "wavesTotal": 10,
+    "score": 0,
+    "best": 0,
+    "lives": 0,
+    "missiles": 2,
+    "weapon": 0,
+    "weaponName": "SOUP LASER",
+    "shipX": 637.2930355066641,
+    "shipY": 355.4166666516128,
+    "shipAlive": false,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 465.99919537236326,
+        "y": 139.9,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 457.26248363177393,
+        "y": 146.63500000000002,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 530.1078085741278,
+        "y": 133.16500000000002,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 681.9991953723633,
+        "y": 139.9,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 673.262483631774,
+        "y": 146.63500000000002,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 386.1078085741278,
+        "y": 189.16500000000002,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 537.9991953723633,
+        "y": 195.9,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 529.262483631774,
+        "y": 202.63500000000002,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 602.1078085741278,
+        "y": 189.16500000000002,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 753.9991953723633,
+        "y": 195.9,
+        "hp": 2,
+        "dive": false
+      }
+    ],
+    "eggs": 0,
+    "pickups": [],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": false,
+    "kills": 0,
+    "titleSel": 1,
+    "lastDeath": {
+      "cause": "egg",
+      "x": 637,
+      "y": 355,
+      "t": 10
+    },
+    "time": 11.233333333333336,
+    "ship": {
+      "x": 637.2930355066641,
+      "y": 355.4166666516128,
+      "vx": -1.677617386637875,
+      "vy": 1.2043105039026415e-7,
+      "alive": false,
+      "invuln": 0
+    },
+    "eggsDetailed": [],
+    "chickensDetailed": [
+      {
+        "x": 465.99919537236326,
+        "y": 139.9,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 457.26248363177393,
+        "y": 146.63500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 530.1078085741278,
+        "y": 133.16500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 681.9991953723633,
+        "y": 139.9,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 673.262483631774,
+        "y": 146.63500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 386.1078085741278,
+        "y": 189.16500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 537.9991953723633,
+        "y": 195.9,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 529.262483631774,
+        "y": 202.63500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 602.1078085741278,
+        "y": 189.16500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 753.9991953723633,
+        "y": 195.9,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      }
+    ],
+    "fireHeld": false,
+    "bullets": 0,
+    "missilesFlying": 0
+  },
+  "hangar": {
+    "mode": "title",
+    "pack": "cluck",
+    "chapter": 1,
+    "sector": "THE BREAKFAST BELT",
+    "waveName": "Early birds",
+    "wave": 1,
+    "wavesTotal": 10,
+    "score": 0,
+    "best": 0,
+    "lives": 0,
+    "missiles": 2,
+    "weapon": 0,
+    "weaponName": "SOUP LASER",
+    "shipX": 637.2930355066641,
+    "shipY": 355.4166666516128,
+    "shipAlive": false,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 465.99919537236326,
+        "y": 139.9,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 457.26248363177393,
+        "y": 146.63500000000002,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 530.1078085741278,
+        "y": 133.16500000000002,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 681.9991953723633,
+        "y": 139.9,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 673.262483631774,
+        "y": 146.63500000000002,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 386.1078085741278,
+        "y": 189.16500000000002,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 537.9991953723633,
+        "y": 195.9,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 529.262483631774,
+        "y": 202.63500000000002,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 602.1078085741278,
+        "y": 189.16500000000002,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 753.9991953723633,
+        "y": 195.9,
+        "hp": 2,
+        "dive": false
+      }
+    ],
+    "eggs": 0,
+    "pickups": [],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": false,
+    "kills": 0,
+    "titleSel": 1,
+    "lastDeath": {
+      "cause": "egg",
+      "x": 637,
+      "y": 355,
+      "t": 10
+    },
+    "time": 11.233333333333336,
+    "ship": {
+      "x": 637.2930355066641,
+      "y": 355.4166666516128,
+      "vx": -1.677617386637875,
+      "vy": 1.2043105039026415e-7,
+      "alive": false,
+      "invuln": 0
+    },
+    "eggsDetailed": [],
+    "chickensDetailed": [
+      {
+        "x": 465.99919537236326,
+        "y": 139.9,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 457.26248363177393,
+        "y": 146.63500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 530.1078085741278,
+        "y": 133.16500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 681.9991953723633,
+        "y": 139.9,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 673.262483631774,
+        "y": 146.63500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 386.1078085741278,
+        "y": 189.16500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 537.9991953723633,
+        "y": 195.9,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 529.262483631774,
+        "y": 202.63500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 602.1078085741278,
+        "y": 189.16500000000002,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 753.9991953723633,
+        "y": 195.9,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      }
+    ],
+    "fireHeld": false,
+    "bullets": 0,
+    "missilesFlying": 0
+  },
+  "confirmKey": "KeyR",
+  "retry": {
+    "mode": "play",
+    "pack": "cluck",
+    "chapter": 1,
+    "sector": "THE BREAKFAST BELT",
+    "waveName": "Early birds",
+    "wave": 1,
+    "wavesTotal": 10,
+    "score": 0,
+    "best": 0,
+    "lives": 3,
+    "missiles": 2,
+    "weapon": 0,
+    "weaponName": "SOUP LASER",
+    "shipX": 480,
+    "shipY": 480,
+    "shipAlive": true,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 336,
+        "y": -15.896388214152944,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 408,
+        "y": -15.896388214152944,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 480,
+        "y": -15.896388214152944,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 552,
+        "y": -15.896388214152944,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 624,
+        "y": -15.896388214152944,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 336,
+        "y": -23.364245955244932,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 408,
+        "y": -23.364245955244932,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 480,
+        "y": -23.364245955244932,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 552,
+        "y": -23.364245955244932,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 624,
+        "y": -23.364245955244932,
+        "hp": 2,
+        "dive": false
+      }
+    ],
+    "eggs": 0,
+    "pickups": [],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": false,
+    "kills": 0,
+    "titleSel": 1,
+    "lastDeath": null,
+    "time": 0.09999999999999999,
+    "ship": {
+      "x": 480,
+      "y": 480,
+      "vx": 0,
+      "vy": 0,
+      "alive": true,
+      "invuln": 0
+    },
+    "eggsDetailed": [],
+    "chickensDetailed": [
+      {
+        "x": 336,
+        "y": -15.896388214152944,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 408,
+        "y": -15.896388214152944,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 480,
+        "y": -15.896388214152944,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 552,
+        "y": -15.896388214152944,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 624,
+        "y": -15.896388214152944,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 336,
+        "y": -23.364245955244932,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 408,
+        "y": -23.364245955244932,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 480,
+        "y": -23.364245955244932,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 552,
+        "y": -23.364245955244932,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 624,
+        "y": -23.364245955244932,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      }
+    ],
+    "fireHeld": true,
+    "bullets": 1,
+    "missilesFlying": 0
+  },
+  "elapsedMs": 36065
+}

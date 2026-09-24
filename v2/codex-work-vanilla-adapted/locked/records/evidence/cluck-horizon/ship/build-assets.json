@@ -1,0 +1,51 @@
+{
+  "buildRoot": "MAGA-everything/02-code/armor-games/apps/chicken-invaders-original/dist",
+  "copiedRoot": "delivery/site/chicken-invaders-original",
+  "entry": "assets/index-x8t4EDjn.js",
+  "entrySha256": "954b9b13f2d76bf61d341078ea5696b8a563203f20749526157b4a45603dce66",
+  "assetCount": 10,
+  "identicalProductionAssets": true,
+  "note": "The copied index.html adds the collection return control; the referenced game JavaScript, vendor runtime and original art match the browser-tested app build. Unreferenced old hashed bundles are excluded.",
+  "assets": [
+    {
+      "file": "art/boss-mother-goose.svg",
+      "sha256": "3c23c4fcf6f075d4469de8e3eff33eac5ac8b2b1721e60d36050f51327de179b"
+    },
+    {
+      "file": "art/boss-rooster-regent.svg",
+      "sha256": "dfed4e44f5bde258c10b569ac59d0d075437437981190186fc751a83f9cae1ec"
+    },
+    {
+      "file": "art/enemy-bruiser.svg",
+      "sha256": "f4708c5f37d99bc209015ad5aa617648a6c4361a2e1cc85033a780c8e7b420f8"
+    },
+    {
+      "file": "art/enemy-flockbird.svg",
+      "sha256": "2b5fa323f81fae308b5b9a47395980f32278a21fa75257eea47bff32aa346de6"
+    },
+    {
+      "file": "art/enemy-glider.svg",
+      "sha256": "4a9c24a4ff43adf0ddfcb35e76aab74814c77b9a6fe55edf6cfae7b230545030"
+    },
+    {
+      "file": "art/ship-courier.svg",
+      "sha256": "b089c61ed169769b1abb0d609cbd9833640ddd5bcf5cd315ccb03efa8660146b"
+    },
+    {
+      "file": "art/title-cluck-horizon.svg",
+      "sha256": "f466a0b0c61dc12f72e7fd30af3c31e0fe17bd0550a32a9df058a69e5f550da1"
+    },
+    {
+      "file": "assets/index-x8t4EDjn.js",
+      "sha256": "954b9b13f2d76bf61d341078ea5696b8a563203f20749526157b4a45603dce66"
+    },
+    {
+      "file": "vendor/pixi.min.mjs",
+      "sha256": "2f69e90f5b1980e6ea244bacfb3fa1eb457e16ddcb0a602b694642658956f2ef"
+    },
+    {
+      "file": "vendor/webworker.min.mjs",
+      "sha256": "cc4f8b34d85884705186b4a705d9d36ba4eef4bcdff4e6c75f13faaf19fb848d"
+    }
+  ]
+}

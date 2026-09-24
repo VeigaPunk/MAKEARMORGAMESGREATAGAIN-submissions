@@ -1,0 +1,4 @@
+node_modules/
+dist/
+*.local
+boxhead-2play-spike/

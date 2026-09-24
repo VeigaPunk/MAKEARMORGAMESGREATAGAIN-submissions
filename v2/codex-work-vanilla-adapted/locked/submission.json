@@ -1,0 +1,111 @@
+{
+  "edition": "second-wind",
+  "title": "Second Wind Arcade",
+  "created_at": "2026-09-24T01:03:05.549369+00:00",
+  "app": "ChatGPT Work",
+  "variant": "vanilla",
+  "execution": "adapted existing Work container; operator recovery before lock",
+  "games": [
+    {
+      "title": "Crown & Sand",
+      "reference": "Swords & Sandals 2: Emperor's Reign",
+      "path": "swords-and-sandals/"
+    },
+    {
+      "title": "Deadlock Rooms",
+      "reference": "Boxhead: 2Play Rooms",
+      "path": "boxhead/"
+    },
+    {
+      "title": "Starfall Flock",
+      "reference": "Chicken Invaders 2: The Next Wave",
+      "path": "chicken-invaders/"
+    },
+    {
+      "title": "Cluck Horizon",
+      "reference": "Cluck Horizon",
+      "path": "chicken-invaders-original/"
+    },
+    {
+      "title": "Vector Vault",
+      "reference": "The World's Hardest Game",
+      "path": "hardest/"
+    },
+    {
+      "title": "Pulsebound",
+      "reference": "The Impossible Game",
+      "path": "impossible/"
+    },
+    {
+      "title": "Burger Tycoon",
+      "reference": "The McDonald's Videogame",
+      "path": "burger-tycoon/"
+    }
+  ],
+  "verification": {
+    "default_gate": {
+      "command": "node delivery/records/verify.mjs",
+      "status": "PASS",
+      "completed_at": "2026-09-24T00:55:36.558Z",
+      "observed": "60/60 rule tests, 114/114 maze validation, 14/14 desktop/mobile nested-path game cases, runner real-time smoke and two-client LAN match",
+      "evidence": "records/evidence/offline-final/results.json"
+    },
+    "full_replay_command": {
+      "command": "node delivery/records/verify.mjs --full",
+      "status": "AVAILABLE; not claimed as a single combined completed invocation",
+      "observed": "Individual full campaign/extended drivers completed separately; exact commands, receipts and input methods are in each ship record."
+    },
+    "campaigns": [
+      {
+        "game": "Crown & Sand",
+        "observed": "80 victories on desktop and emulated touch; 8400 seeded rules campaigns; settings, saves, failure/retry and nested-copy checks",
+        "record": "records/ship-records/arena.md"
+      },
+      {
+        "game": "Deadlock Rooms",
+        "observed": "Two-client 5-0 LAN match, reconnect/pause/music lifecycle; solo survival to wave 5; local co-op, all rooms/weapons and touch",
+        "record": "records/ship-records/boxhead.md"
+      },
+      {
+        "game": "Starfall Flock",
+        "observed": "110 encounters across 11 sectors; 196500 points, five lives, zero checkpoint retries, zero page errors/external requests",
+        "record": "records/ship-records/starfall-flock.md"
+      },
+      {
+        "game": "Cluck Horizon",
+        "observed": "22 encounters; 41175 points, five lives, zero checkpoint retries; both touch layouts",
+        "record": "records/ship-records/cluck-horizon.md"
+      },
+      {
+        "game": "Vector Vault",
+        "observed": "114/114 earned clears; deterministic validator and native-input/visual checks",
+        "record": "records/ship-records/vector-vault.md"
+      },
+      {
+        "game": "Pulsebound",
+        "observed": "All five courses, 588 seconds total course time, 403 keyboard presses, zero deaths; copied real-time touch/audio smoke",
+        "record": "records/ship-records/pulsebound.md"
+      },
+      {
+        "game": "Burger Tycoon",
+        "observed": "Desktop/touch survival through 300 displayed company seconds, pause, settings, reload, deliberate failure and restart, zero page errors",
+        "record": "records/ship-records/burger-tycoon.md"
+      }
+    ],
+    "site_integrity": {
+      "status": "PASS",
+      "files": 188,
+      "evidence": "records/evidence/release-copy.json",
+      "observed": "Byte-identical to final dist; all seven reachable entries; screenshot covers traced to actual game captures."
+    }
+  },
+  "limitations": [
+    "Physical phones, Safari/Firefox, real Wi-Fi latency and modest physical-device performance were not certified; mobile tests used Chromium touch emulation and LAN used two browser clients on one host.",
+    "Full maze and shooter proofs use controlled clocks and synthetic DOM events; the runner campaign uses native keyboard input with a controlled browser clock. Native real-time input checks are separate and documented. No full-campaign wall-clock audio synchronization or human audio audition is claimed.",
+    "These are original evocations at documented campaign scale. Exact proprietary formulas, original wave/level geometry, historical roster, art and music parity are not claimed.",
+    "Offline verification bundles Linux x86_64 Chrome Headless Shell and JavaScript dependencies; Node 22.18+ and standard Chromium system libraries are prerequisites. Other operating-system verification runtimes are not bundled.",
+    "Deadlock LAN requires the included Node host and an open authority tab, supports two players, and has no host migration. Same-phone local co-op touch controls are not claimed.",
+    "The existing Work container/home and network policy were reused. Browser setup required adaptation; some successful untouched-baseline play occurred after initial source edits, as disclosed in the relevant records.",
+    "The native generation agent was interrupted after producing the release and completed packaged gate but before locking. The operator finalized metadata, evidence and delivery without changing the game code. Exact model/effort identifiers were not exposed; defaults were not overridden."
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "siteRoot": "/workspace/scratch/05b3d5bae7f8/delivery/site",
+  "receipts": [
+    {
+      "app": "chicken-invaders",
+      "pass": true,
+      "elapsedMs": 33658,
+      "losses": [
+        {
+          "elapsedMs": 7945,
+          "from": 3,
+          "to": 2,
+          "cause": {
+            "cause": "egg",
+            "x": 480,
+            "y": 350,
+            "t": 2.5
+          },
+          "ship": {
+            "x": 480,
+            "y": 350.0000088292286,
+            "vx": 0,
+            "vy": -0.00007063382831036755,
+            "alive": false,
+            "invuln": 0
+          }
+        },
+        {
+          "elapsedMs": 14460,
+          "from": 2,
+          "to": 1,
+          "cause": {
+            "cause": "egg",
+            "x": 474,
+            "y": 355,
+            "t": 6.9
+          },
+          "ship": {
+            "x": 474.5833333314278,
+            "y": 355.4166666576837,
+            "vx": 1.5247745374772242e-8,
+            "vy": 7.186355302206023e-8,
+            "alive": false,
+            "invuln": 0
+          }
+        },
+        {
+          "elapsedMs": 21643,
+          "from": 1,
+          "to": 0,
+          "cause": {
+            "cause": "egg",
+            "x": 468,
+            "y": 344,
+            "t": 11.2
+          },
+          "ship": {
+            "x": 468.7995874307938,
+            "y": 344.5833334035189,
+            "vx": -40.39669944634789,
+            "vy": -5.614846598512688e-7,
+            "alive": false,
+            "invuln": 0
+          }
+        }
+      ],
+      "build": {
+        "indexSha256": "c7875fe6fa64d7076a5c4106df10b4afaf425aba79347d2ef83c719b40033de3",
+        "entry": "./assets/index-BH05V7HE.js",
+        "entrySha256": "83d272d9267aafc5181a8d572971829f0e1b463cfa1b71881119d90fb3d3ca5f"
+      },
+      "errors": [],
+      "externalRequests": []
+    },
+    {
+      "app": "chicken-invaders-original",
+      "pass": true,
+      "elapsedMs": 36065,
+      "losses": [
+        {
+          "elapsedMs": 8252,
+          "from": 3,
+          "to": 2,
+          "cause": {
+            "cause": "egg",
+            "x": 642,
+            "y": 345,
+            "t": 2.5
+          },
+          "ship": {
+            "x": 642.2998733559771,
+            "y": 345.676895689449,
+            "vx": 1.6010131521823334,
+            "vy": -8.748498848922576,
+            "alive": false,
+            "invuln": 0
+          }
+        },
+        {
+          "elapsedMs": 13566,
+          "from": 2,
+          "to": 1,
+          "cause": {
+            "cause": "egg",
+            "x": 553,
+            "y": 355,
+            "t": 5.7
+          },
+          "ship": {
+            "x": 553.5508380358782,
+            "y": 355.41595673549676,
+            "vx": 61.59329571297778,
+            "vy": 0.005679449362465749,
+            "alive": false,
+            "invuln": 0
+          }
+        },
+        {
+          "elapsedMs": 20740,
+          "from": 1,
+          "to": 0,
+          "cause": {
+            "cause": "egg",
+            "x": 637,
+            "y": 355,
+            "t": 10
+          },
+          "ship": {
+            "x": 637.2930355066641,
+            "y": 355.4166666516128,
+            "vx": -1.677617386637875,
+            "vy": 1.2043105039026415e-7,
+            "alive": false,
+            "invuln": 0
+          }
+        }
+      ],
+      "build": {
+        "indexSha256": "afce9ef85377c0c6742e83428f6c2dce039b41ee3227abf0b975c3de9935936d",
+        "entry": "./assets/index-x8t4EDjn.js",
+        "entrySha256": "954b9b13f2d76bf61d341078ea5696b8a563203f20749526157b4a45603dce66"
+      },
+      "errors": [],
+      "externalRequests": []
+    }
+  ]
+}
