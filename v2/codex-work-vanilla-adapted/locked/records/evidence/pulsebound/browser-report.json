@@ -1,0 +1,76 @@
+{
+  "target": "app/dist",
+  "date": "2026-09-23T23:56:58.931Z",
+  "browser": "154.0.8037.57",
+  "input": "Playwright keyboard.press; ordinary rAF advanced by Playwright Clock. No game-state mutation; debug reads only.",
+  "courses": [
+    {
+      "name": "First Light",
+      "duration": 100,
+      "wallSeconds": 47.346,
+      "deaths": 0,
+      "attempts": 1,
+      "keyPresses": 54,
+      "finalX": 36000,
+      "maxObservedAudioPhaseErrorMs": null
+    },
+    {
+      "name": "Blue Shift",
+      "duration": 108,
+      "wallSeconds": 50.482,
+      "deaths": 0,
+      "attempts": 1,
+      "keyPresses": 71,
+      "finalX": 38880,
+      "maxObservedAudioPhaseErrorMs": null
+    },
+    {
+      "name": "Glasswork",
+      "duration": 116,
+      "wallSeconds": 56.882,
+      "deaths": 0,
+      "attempts": 1,
+      "keyPresses": 82,
+      "finalX": 41760,
+      "maxObservedAudioPhaseErrorMs": null
+    },
+    {
+      "name": "Emberline",
+      "duration": 124,
+      "wallSeconds": 85.972,
+      "deaths": 0,
+      "attempts": 1,
+      "keyPresses": 92,
+      "finalX": 44640,
+      "maxObservedAudioPhaseErrorMs": null
+    },
+    {
+      "name": "Event Horizon",
+      "duration": 140,
+      "wallSeconds": 87.692,
+      "deaths": 0,
+      "attempts": 1,
+      "keyPresses": 104,
+      "finalX": 50400,
+      "maxObservedAudioPhaseErrorMs": null
+    }
+  ],
+  "checks": {
+    "reloadUnlocks": true,
+    "shortKeyPress": true,
+    "pauseFrozen": true,
+    "resume": true,
+    "practiceRespawn": true,
+    "negativeAudioOffsetPersists": true,
+    "touchJump": true,
+    "phoneFits": true,
+    "noPageErrors": true
+  },
+  "errors": [],
+  "assets": [
+    {
+      "path": "/assets/index-Bq78tfzm.js",
+      "sha256": "5777ee35c3b043c49d9740813b12a75f91e89d4d9e1f9e884f53c9bc58b37286"
+    }
+  ]
+}

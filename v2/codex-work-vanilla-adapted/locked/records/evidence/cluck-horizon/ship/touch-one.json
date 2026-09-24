@@ -1,0 +1,27 @@
+{
+  "method": "Native CDP touch steering/fire smoke, followed by browser PointerEvents (isTrusted=false) through production touch zones for complete-wave replay; read-only observation; controlled rAF/performance clock at 20 Hz and production physics at 120 Hz",
+  "virtualMs": 6800,
+  "nativeSmoke": {
+    "beforeX": 480,
+    "afterX": 550.9403836195415
+  },
+  "elapsedMs": 34834,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "layout": "one",
+  "result": {
+    "wave": 1,
+    "score": 1400,
+    "lives": 3,
+    "mode": "play"
+  },
+  "release": {
+    "drag": null,
+    "fire": false
+  },
+  "fireDiameterCSS": 44,
+  "errors": [],
+  "externalRequests": []
+}

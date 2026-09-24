@@ -1,0 +1,18 @@
+OFFLINE VERIFICATION RUNTIME (not needed to play the collection)
+
+Chrome for Testing Headless Shell 154.0.8037.57, Linux x86_64.
+Source: official Google artifact
+https://storage.googleapis.com/chrome-for-testing-public/154.0.8037.57/linux64/chrome-headless-shell-linux64.zip
+Downloaded 2026-09-23. All accompanying license/notice files are preserved.
+
+Playwright / @playwright/test 1.63.0 from the npm registry, as pinned in the
+checkpoint's root package-lock.json. Accompanying Apache 2.0 licenses and notices
+are preserved within node_modules. These are verification tools only.
+
+Node 22.18+ and standard Linux desktop shared libraries are the execution
+prerequisites. No install step or network request is needed by verify.mjs.
+Other operating-system browser runtimes are not bundled or claimed verified.
+
+The executable is stored as a gzip stream to keep a single checked-in file
+below 100 MB. verify.mjs expands it into a temporary workspace with Node built-ins.
+No binary code is modified. The unused npm CLI symlinks are omitted.

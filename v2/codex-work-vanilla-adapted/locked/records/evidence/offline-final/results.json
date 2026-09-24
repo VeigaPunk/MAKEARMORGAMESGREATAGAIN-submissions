@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-24T00:55:36.558Z",
+  "site": "/workspace/scratch/05b3d5bae7f8/delivery/site",
+  "browser": "/tmp/second-wind-verification-T6tMgX/chromium/chrome-headless-shell",
+  "full": false,
+  "status": "PASS",
+  "results": [
+    {
+      "name": "rules",
+      "command": "node --test verification/tests/gameplay.test.mjs verification/tests/storage-isolation.test.mjs hardest/regression.mjs MAGA-everything/02-code/armor-games/apps/swords-and-sandals/tests/progression.test.mjs MAGA-everything/02-code/armor-games/packages/shmup-core/tests/campaign.test.mjs MAGA-everything/02-code/armor-games/apps/impossible/tests/campaign.test.mjs MAGA-everything/02-code/armor-games/apps/burger-tycoon/tests/economy.test.mjs MAGA-everything/02-code/armor-games/apps/boxhead/tests/rules.test.mjs",
+      "exitCode": 0,
+      "seconds": 11.236
+    },
+    {
+      "name": "vault-validator",
+      "command": "node hardest/validate.mjs",
+      "exitCode": 0,
+      "seconds": 31.148
+    },
+    {
+      "name": "copied-release-smoke",
+      "command": "node tooling/collection-smoke.mjs",
+      "exitCode": 0,
+      "seconds": 75.571
+    },
+    {
+      "name": "runner-realtime-smoke",
+      "command": "node MAGA-everything/02-code/armor-games/apps/impossible/tests/browser.mjs --smoke",
+      "exitCode": 0,
+      "seconds": 4.55
+    },
+    {
+      "name": "deadlock-lan",
+      "command": "node --test MAGA-everything/02-code/armor-games/apps/boxhead/tests/lan.test.mjs",
+      "exitCode": 0,
+      "seconds": 58.89
+    }
+  ]
+}

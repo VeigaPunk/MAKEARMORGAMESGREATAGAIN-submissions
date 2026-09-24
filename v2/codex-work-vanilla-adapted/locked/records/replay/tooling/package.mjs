@@ -1,0 +1,13 @@
+import { spawnSync } from 'node:child_process';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+const manifest=JSON.parse(await readFile('dist/release.json','utf8'));
+const expected=['boxhead','impossible','burger-tycoon','chicken-invaders','chicken-invaders-original','swords-and-sandals','hardest'];
+if(JSON.stringify([...manifest.games].sort())!==JSON.stringify([...expected].sort()))throw Error('Incomplete distribution. Run npm run build.');
+await mkdir('releases',{recursive:true});
+const archive=`second-wind-${manifest.version}.tar.gz`;
+const result=spawnSync('tar',['--sort=name','--mtime=@0','--owner=0','--group=0','--numeric-owner','-czf',`releases/${archive}`,'-C','dist','.'],{stdio:'inherit'});
+if(result.status!==0)process.exit(result.status??1);
+const digest=createHash('sha256').update(await readFile(`releases/${archive}`)).digest('hex');
+await writeFile(`releases/${archive}.sha256`,`${digest}  ${archive}\n`);
+console.log(`Second Wind release: releases/${archive}\nSHA-256: ${digest}`);

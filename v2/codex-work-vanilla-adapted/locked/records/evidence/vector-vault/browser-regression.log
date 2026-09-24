@@ -1,0 +1,8 @@
+PASS browser proof replay L1: 3.6s / 0 deaths
+PASS browser proof replay L30: 17.0s / 0 deaths
+PASS browser proof replay L97: 7.1s / 0 deaths
+PASS browser proof replay L109: 9.0s / 0 deaths
+PASS browser proof replay L111: 12.7s / 0 deaths
+PASS browser proof replay L114: 16.8s / 0 deaths
+PASS corrupt saves, medal rendering, pause/focus recovery, immediate death persistence, no duplicate deaths
+PASS mobile touch movement/cancel and visible pause controls; no browser errors

@@ -1,0 +1,68 @@
+{
+  "title": "Crown & Sand",
+  "created": "2026-09-23T23:51:45.069Z",
+  "url": "http://127.0.0.1:5178/",
+  "inputOnly": true,
+  "runs": [
+    {
+      "device": "mobile",
+      "victories": 80,
+      "turns": 1029,
+      "attempts": 84,
+      "purchases": 42,
+      "moves": [
+        "➶ Javelin (3)",
+        "✦ Shield breaker",
+        "◈ Guard",
+        "⚔ Attack",
+        "☽ Moon ward",
+        "✚ Potion (2)",
+        "☀ Sunfire",
+        "✚ Potion (1)"
+      ],
+      "errors": [],
+      "externalRequests": 0,
+      "saveSlots": "pass",
+      "retirement": "pass",
+      "defeatRecovery": "rules-tested",
+      "screenshots": [
+        "mobile-create.png",
+        "mobile-combat.png",
+        "mobile-moonlit.png",
+        "mobile-eternal.png",
+        "mobile-champion.png"
+      ]
+    },
+    {
+      "device": "desktop",
+      "victories": 80,
+      "turns": 1088,
+      "attempts": 89,
+      "purchases": 42,
+      "moves": [
+        "keyboard javelin",
+        "➶ Javelin (3)",
+        "✦ Shield breaker",
+        "◈ Guard",
+        "⚔ Attack",
+        "☽ Moon ward",
+        "✚ Potion (2)",
+        "☀ Sunfire",
+        "✚ Potion (1)"
+      ],
+      "errors": [],
+      "externalRequests": 0,
+      "saveSlots": "pass",
+      "retirement": "pass",
+      "defeatRecovery": "real-input-pass",
+      "screenshots": [
+        "desktop-create.png",
+        "desktop-combat.png",
+        "desktop-moonlit.png",
+        "desktop-eternal.png",
+        "desktop-champion.png"
+      ]
+    }
+  ],
+  "status": "passed"
+}

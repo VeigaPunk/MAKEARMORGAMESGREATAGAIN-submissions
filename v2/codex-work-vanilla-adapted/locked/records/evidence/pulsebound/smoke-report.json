@@ -1,0 +1,31 @@
+{
+  "target": "/workspace/scratch/05b3d5bae7f8/delivery/site",
+  "date": "2026-09-24T00:06:59.919Z",
+  "browser": "154.0.8037.57",
+  "input": "Playwright keyboard.press and pointer/touch input, wall-clock requestAnimationFrame; debug reads only",
+  "courses": [],
+  "checks": {
+    "title": true,
+    "realKeyboardJump": true,
+    "pause": true,
+    "resume": true,
+    "noPageErrors": true,
+    "musicTransport": true,
+    "audioPhaseErrorMs": 14,
+    "negativeAudioOffsetApplied": true,
+    "calibratedPhaseMs": -157,
+    "touchJump": true,
+    "phoneFits": true
+  },
+  "errors": [],
+  "assets": [
+    {
+      "path": "/impossible/assets/index-BtFAFK1L.js",
+      "sha256": "a2d8edc8793571b5867d7e050e622d2917a52a68a762c4099f34b920395b9d71"
+    },
+    {
+      "path": "/return.js",
+      "sha256": "7375f7e147c7f74e2b25d7f63e332027617c5337adda7a69c84cde60a24c5ea7"
+    }
+  ]
+}

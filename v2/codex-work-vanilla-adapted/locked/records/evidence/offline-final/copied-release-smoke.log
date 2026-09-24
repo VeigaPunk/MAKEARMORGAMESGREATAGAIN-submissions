@@ -1,0 +1,46 @@
+Second Wind ready: http://127.0.0.1:35303/release/check/
+PASS launcher desktop: seven links, nested path, no external requests/errors/overflow
+CHECK boxhead desktop
+PLAY boxhead desktop: {"mode":"playing","paused":false,"x":361.38619999999986,"y":200}
+PASS boxhead desktop: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK impossible desktop
+PLAY impossible desktop: {"mode":"play","paused":false,"x":171,"y":271.3472222222221,"progress":0.00475}
+PASS impossible desktop: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK burger-tycoon desktop
+PLAY burger-tycoon desktop: {"mode":"play","paused":false,"time":0.10234999999962748,"cash":500.1023499999999,"crops":35.01535249999989}
+PASS burger-tycoon desktop: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK chicken-invaders desktop
+PLAY chicken-invaders desktop: {"mode":"play","paused":false,"x":494.596255838351,"y":480,"alive":true,"lives":3,"score":0}
+PASS chicken-invaders desktop: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK chicken-invaders-original desktop
+PLAY chicken-invaders-original desktop: {"mode":"play","paused":false,"x":499.5894515720784,"y":480,"alive":true,"lives":3,"score":0}
+PASS chicken-invaders-original desktop: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK swords-and-sandals desktop
+PLAY swords-and-sandals desktop: {"mode":"arena","paused":false,"hp":43,"opponentHp":22,"round":1}
+PASS swords-and-sandals desktop: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK hardest desktop
+PLAY hardest desktop: {"mode":"play","paused":false,"time":0.3291666666666667,"level":1,"deaths":0}
+PASS hardest desktop: start, gameplay, mute, settings, pause, nested return, render/network/layout
+PASS launcher mobile: seven links, nested path, no external requests/errors/overflow
+CHECK boxhead mobile
+PLAY boxhead mobile: {"mode":"playing","paused":false,"x":369.783905882353,"y":200}
+PASS boxhead mobile: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK impossible mobile
+PLAY impossible mobile: {"mode":"play","paused":false,"x":204,"y":271.3472222222221,"progress":0.005666666666666667}
+PASS impossible mobile: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK burger-tycoon mobile
+PLAY burger-tycoon mobile: {"mode":"play","paused":false,"time":0.099025,"cash":500.099025,"crops":35.01485374999994}
+PASS burger-tycoon mobile: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK chicken-invaders mobile
+PLAY chicken-invaders mobile: {"mode":"play","paused":false,"x":530.8229483257186,"y":480,"alive":true,"lives":3,"score":0}
+PASS chicken-invaders mobile: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK chicken-invaders-original mobile
+PLAY chicken-invaders-original mobile: {"mode":"play","paused":false,"x":520.2117069077503,"y":480,"alive":true,"lives":3,"score":0}
+PASS chicken-invaders-original mobile: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK swords-and-sandals mobile
+PLAY swords-and-sandals mobile: {"mode":"arena","paused":false,"hp":43,"opponentHp":22,"round":1}
+PASS swords-and-sandals mobile: start, gameplay, mute, settings, pause, nested return, render/network/layout
+CHECK hardest mobile
+PLAY hardest mobile: {"mode":"play","paused":false,"time":0.4624999999999996,"level":1,"deaths":0}
+PASS hardest mobile: start, gameplay, mute, settings, pause, nested return, render/network/layout
+PASS collection smoke: 14/14 game/viewports; report /tmp/second-wind-verification-T6tMgX/verification/latest/screenshots/collection-smoke.json

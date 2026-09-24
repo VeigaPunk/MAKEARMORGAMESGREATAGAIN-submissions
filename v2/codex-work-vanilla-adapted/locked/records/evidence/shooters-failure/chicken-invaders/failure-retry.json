@@ -1,0 +1,967 @@
+{
+  "app": "chicken-invaders",
+  "siteRoot": "/workspace/scratch/05b3d5bae7f8/delivery/site",
+  "method": "Native Playwright keyboard events, normal browser wall clock/rAF, fresh context; read-only __maga telemetry; no gameplay, save or clock writes; CDP focus emulation only; no fire/missile commands",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "inputs": [
+    {
+      "elapsedMs": 3963,
+      "type": "press",
+      "code": "Enter"
+    },
+    {
+      "elapsedMs": 4101,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 4691,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 9986,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 10077,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 10244,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 10252,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 10347,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 10618,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 10620,
+      "type": "down",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 10786,
+      "type": "up",
+      "code": "ArrowDown"
+    },
+    {
+      "elapsedMs": 15819,
+      "type": "down",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 16054,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 16381,
+      "type": "up",
+      "code": "ArrowUp"
+    },
+    {
+      "elapsedMs": 17054,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 17226,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 17356,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 17359,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 17652,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 17668,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 19420,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 19446,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 19764,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 20119,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 20286,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 20291,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 20455,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 21021,
+      "type": "down",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 21193,
+      "type": "up",
+      "code": "ArrowRight"
+    },
+    {
+      "elapsedMs": 21207,
+      "type": "down",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 21475,
+      "type": "up",
+      "code": "ArrowLeft"
+    },
+    {
+      "elapsedMs": 26463,
+      "type": "press",
+      "code": "Enter"
+    },
+    {
+      "elapsedMs": 30618,
+      "type": "press",
+      "code": "Enter"
+    }
+  ],
+  "losses": [
+    {
+      "elapsedMs": 7945,
+      "from": 3,
+      "to": 2,
+      "cause": {
+        "cause": "egg",
+        "x": 480,
+        "y": 350,
+        "t": 2.5
+      },
+      "ship": {
+        "x": 480,
+        "y": 350.0000088292286,
+        "vx": 0,
+        "vy": -0.00007063382831036755,
+        "alive": false,
+        "invuln": 0
+      }
+    },
+    {
+      "elapsedMs": 14460,
+      "from": 2,
+      "to": 1,
+      "cause": {
+        "cause": "egg",
+        "x": 474,
+        "y": 355,
+        "t": 6.9
+      },
+      "ship": {
+        "x": 474.5833333314278,
+        "y": 355.4166666576837,
+        "vx": 1.5247745374772242e-8,
+        "vy": 7.186355302206023e-8,
+        "alive": false,
+        "invuln": 0
+      }
+    },
+    {
+      "elapsedMs": 21643,
+      "from": 1,
+      "to": 0,
+      "cause": {
+        "cause": "egg",
+        "x": 468,
+        "y": 344,
+        "t": 11.2
+      },
+      "ship": {
+        "x": 468.7995874307938,
+        "y": 344.5833334035189,
+        "vx": -40.39669944634789,
+        "vy": -5.614846598512688e-7,
+        "alive": false,
+        "invuln": 0
+      }
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "pass": true,
+  "build": {
+    "indexSha256": "c7875fe6fa64d7076a5c4106df10b4afaf425aba79347d2ef83c719b40033de3",
+    "entry": "./assets/index-BH05V7HE.js",
+    "entrySha256": "83d272d9267aafc5181a8d572971829f0e1b463cfa1b71881119d90fb3d3ca5f"
+  },
+  "initial": {
+    "mode": "play",
+    "pack": "replica",
+    "chapter": 1,
+    "sector": "PLUTO · FROSTWATCH",
+    "waveName": "Snowflight",
+    "wave": 1,
+    "wavesTotal": 9,
+    "score": 0,
+    "best": 0,
+    "lives": 3,
+    "missiles": 2,
+    "weapon": 0,
+    "weaponName": "COMET NEEDLE",
+    "shipX": 480,
+    "shipY": 480,
+    "shipAlive": true,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 336,
+        "y": -9.762545712745808,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 408,
+        "y": -9.762545712745808,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 480,
+        "y": -9.762545712745808,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 552,
+        "y": -9.762545712745808,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 624,
+        "y": -9.762545712745808,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 336,
+        "y": -14.09667797787138,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 408,
+        "y": -14.09667797787138,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 480,
+        "y": -14.09667797787138,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 552,
+        "y": -14.09667797787138,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 624,
+        "y": -14.09667797787138,
+        "hp": 2,
+        "dive": false
+      }
+    ],
+    "eggs": 0,
+    "pickups": [],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": false,
+    "kills": 0,
+    "titleSel": 1,
+    "lastDeath": null,
+    "time": 0.11666666666666665,
+    "ship": {
+      "x": 480,
+      "y": 480,
+      "vx": 0,
+      "vy": 0,
+      "alive": true,
+      "invuln": 0
+    },
+    "eggsDetailed": [],
+    "chickensDetailed": [
+      {
+        "x": 336,
+        "y": -9.762545712745808,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 408,
+        "y": -9.762545712745808,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 480,
+        "y": -9.762545712745808,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 552,
+        "y": -9.762545712745808,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 624,
+        "y": -9.762545712745808,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 336,
+        "y": -14.09667797787138,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 408,
+        "y": -14.09667797787138,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 480,
+        "y": -14.09667797787138,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 552,
+        "y": -14.09667797787138,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 624,
+        "y": -14.09667797787138,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      }
+    ],
+    "fireHeld": false,
+    "bullets": 0,
+    "missilesFlying": 0
+  },
+  "gameover": {
+    "mode": "gameover",
+    "pack": "replica",
+    "chapter": 1,
+    "sector": "PLUTO · FROSTWATCH",
+    "waveName": "Snowflight",
+    "wave": 1,
+    "wavesTotal": 9,
+    "score": 0,
+    "best": 0,
+    "lives": 0,
+    "missiles": 2,
+    "weapon": 0,
+    "weaponName": "COMET NEEDLE",
+    "shipX": 468.7995874307938,
+    "shipY": 344.5833334035189,
+    "shipAlive": false,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 423.55606298425135,
+        "y": 144.63333333333307,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 312.5524322634088,
+        "y": 153.567333333333,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 607.1318572863802,
+        "y": 138.6773333333331,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 639.5560629842513,
+        "y": 144.63333333333307,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 528.5524322634088,
+        "y": 153.567333333333,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 463.1318572863802,
+        "y": 194.6773333333331,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 495.55606298425135,
+        "y": 200.63333333333307,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 384.5524322634088,
+        "y": 209.567333333333,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 679.1318572863802,
+        "y": 194.6773333333331,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 711.5560629842513,
+        "y": 200.63333333333307,
+        "hp": 2,
+        "dive": false
+      }
+    ],
+    "eggs": 0,
+    "pickups": [],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": false,
+    "kills": 0,
+    "titleSel": 1,
+    "lastDeath": {
+      "cause": "egg",
+      "x": 468,
+      "y": 344,
+      "t": 11.2
+    },
+    "time": 12.416666666666602,
+    "ship": {
+      "x": 468.7995874307938,
+      "y": 344.5833334035189,
+      "vx": -40.39669944634789,
+      "vy": -5.614846598512688e-7,
+      "alive": false,
+      "invuln": 0
+    },
+    "eggsDetailed": [],
+    "chickensDetailed": [
+      {
+        "x": 423.55606298425135,
+        "y": 144.63333333333307,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 312.5524322634088,
+        "y": 153.567333333333,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 607.1318572863802,
+        "y": 138.6773333333331,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 639.5560629842513,
+        "y": 144.63333333333307,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 528.5524322634088,
+        "y": 153.567333333333,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 463.1318572863802,
+        "y": 194.6773333333331,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 495.55606298425135,
+        "y": 200.63333333333307,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 384.5524322634088,
+        "y": 209.567333333333,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 679.1318572863802,
+        "y": 194.6773333333331,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 711.5560629842513,
+        "y": 200.63333333333307,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      }
+    ],
+    "fireHeld": false,
+    "bullets": 0,
+    "missilesFlying": 0
+  },
+  "hangar": {
+    "mode": "title",
+    "pack": "replica",
+    "chapter": 1,
+    "sector": "PLUTO · FROSTWATCH",
+    "waveName": "Snowflight",
+    "wave": 1,
+    "wavesTotal": 9,
+    "score": 0,
+    "best": 0,
+    "lives": 0,
+    "missiles": 2,
+    "weapon": 0,
+    "weaponName": "COMET NEEDLE",
+    "shipX": 468.7995874307938,
+    "shipY": 344.5833334035189,
+    "shipAlive": false,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 423.55606298425135,
+        "y": 144.63333333333307,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 312.5524322634088,
+        "y": 153.567333333333,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 607.1318572863802,
+        "y": 138.6773333333331,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 639.5560629842513,
+        "y": 144.63333333333307,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 528.5524322634088,
+        "y": 153.567333333333,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 463.1318572863802,
+        "y": 194.6773333333331,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 495.55606298425135,
+        "y": 200.63333333333307,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 384.5524322634088,
+        "y": 209.567333333333,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 679.1318572863802,
+        "y": 194.6773333333331,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 711.5560629842513,
+        "y": 200.63333333333307,
+        "hp": 2,
+        "dive": false
+      }
+    ],
+    "eggs": 0,
+    "pickups": [],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": false,
+    "kills": 0,
+    "titleSel": 1,
+    "lastDeath": {
+      "cause": "egg",
+      "x": 468,
+      "y": 344,
+      "t": 11.2
+    },
+    "time": 12.416666666666602,
+    "ship": {
+      "x": 468.7995874307938,
+      "y": 344.5833334035189,
+      "vx": -40.39669944634789,
+      "vy": -5.614846598512688e-7,
+      "alive": false,
+      "invuln": 0
+    },
+    "eggsDetailed": [],
+    "chickensDetailed": [
+      {
+        "x": 423.55606298425135,
+        "y": 144.63333333333307,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 312.5524322634088,
+        "y": 153.567333333333,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 607.1318572863802,
+        "y": 138.6773333333331,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 639.5560629842513,
+        "y": 144.63333333333307,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 528.5524322634088,
+        "y": 153.567333333333,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 463.1318572863802,
+        "y": 194.6773333333331,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 495.55606298425135,
+        "y": 200.63333333333307,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 384.5524322634088,
+        "y": 209.567333333333,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 679.1318572863802,
+        "y": 194.6773333333331,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 711.5560629842513,
+        "y": 200.63333333333307,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      }
+    ],
+    "fireHeld": false,
+    "bullets": 0,
+    "missilesFlying": 0
+  },
+  "confirmKey": "Enter",
+  "retry": {
+    "mode": "play",
+    "pack": "replica",
+    "chapter": 1,
+    "sector": "PLUTO · FROSTWATCH",
+    "waveName": "Snowflight",
+    "wave": 1,
+    "wavesTotal": 9,
+    "score": 0,
+    "best": 0,
+    "lives": 3,
+    "missiles": 2,
+    "weapon": 0,
+    "weaponName": "COMET NEEDLE",
+    "shipX": 480,
+    "shipY": 480,
+    "shipAlive": true,
+    "invuln": 0,
+    "chickens": [
+      {
+        "x": 336,
+        "y": -22.348819510833692,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 408,
+        "y": -22.348819510833692,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 480,
+        "y": -22.348819510833692,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 552,
+        "y": -22.348819510833692,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 624,
+        "y": -22.348819510833692,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 336,
+        "y": -33.11316690448733,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 408,
+        "y": -33.11316690448733,
+        "hp": 2,
+        "dive": false
+      },
+      {
+        "x": 480,
+        "y": -33.11316690448733,
+        "hp": 1,
+        "dive": false
+      },
+      {
+        "x": 552,
+        "y": -33.11316690448733,
+        "hp": 3,
+        "dive": false
+      },
+      {
+        "x": 624,
+        "y": -33.11316690448733,
+        "hp": 2,
+        "dive": false
+      }
+    ],
+    "eggs": 0,
+    "pickups": [],
+    "bossName": null,
+    "bossHp": null,
+    "bossMax": null,
+    "bossX": null,
+    "bossWarn": 0,
+    "unlocked": 1,
+    "paused": false,
+    "kills": 0,
+    "titleSel": 1,
+    "lastDeath": null,
+    "time": 0.08333333333333333,
+    "ship": {
+      "x": 480,
+      "y": 480,
+      "vx": 0,
+      "vy": 0,
+      "alive": true,
+      "invuln": 0
+    },
+    "eggsDetailed": [],
+    "chickensDetailed": [
+      {
+        "x": 336,
+        "y": -22.348819510833692,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 408,
+        "y": -22.348819510833692,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 480,
+        "y": -22.348819510833692,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 552,
+        "y": -22.348819510833692,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 624,
+        "y": -22.348819510833692,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 336,
+        "y": -33.11316690448733,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 408,
+        "y": -33.11316690448733,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 480,
+        "y": -33.11316690448733,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 552,
+        "y": -33.11316690448733,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      },
+      {
+        "x": 624,
+        "y": -33.11316690448733,
+        "dive": 0,
+        "dvx": 0,
+        "dvy": 0
+      }
+    ],
+    "fireHeld": false,
+    "bullets": 0,
+    "missilesFlying": 0
+  },
+  "elapsedMs": 33658
+}

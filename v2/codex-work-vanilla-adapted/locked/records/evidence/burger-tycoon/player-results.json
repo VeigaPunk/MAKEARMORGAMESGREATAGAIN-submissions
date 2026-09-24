@@ -1,0 +1,3419 @@
+{
+  "date": "2026-09-24T00:39:31.967Z",
+  "siteRoot": "/workspace/scratch/05b3d5bae7f8/delivery/site",
+  "status": "PASS",
+  "clock": "native browser wall clock throughout; desktop and touch in separate browsers; real pointer/touch/keyboard events, no clock overrides or company-state writes",
+  "errors": [],
+  "assets": [
+    {
+      "path": "/proof/second-wind/burger-tycoon/assets/index-bT-scIum.js",
+      "sha256": "719ac6b2f3dd82d7e5e0e5e7b0cf98d22e24989bceef4233193a8e637143a27f"
+    },
+    {
+      "path": "/proof/second-wind/return.js",
+      "sha256": "7375f7e147c7f74e2b25d7f63e332027617c5337adda7a69c84cde60a24c5ea7"
+    }
+  ],
+  "trace": [
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-3\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 0.0008499999999068564,
+        "companyAgeSeconds": 0.0033999999996274254,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 500.00084999999996,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.999872500000015,
+        "crops": 20.000127499999984,
+        "patties": 9.999915000000009,
+        "morale": 70.000068,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 0.025874999999906893,
+        "companyAgeSeconds": 0.10349999999962757,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 320.02587499999987,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.996369250000017,
+        "crops": 20.00413174999998,
+        "patties": 9.997412500000014,
+        "morale": 70.00206999999997,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 0.03002499999990687,
+        "companyAgeSeconds": 0.12009999999962748,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 320.0300249999999,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.995995750000016,
+        "crops": 20.005003249999984,
+        "patties": 9.996997500000015,
+        "morale": 70.00240199999998,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 0.06754999999990696,
+        "companyAgeSeconds": 0.27019999999962785,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 320.0675499999998,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.992618500000017,
+        "crops": 35.01288349999999,
+        "patties": 9.993245000000021,
+        "morale": 70.00540399999996,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-3\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 0.142950000000652,
+        "companyAgeSeconds": 0.571800000002608,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 500.14295000000067,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.978557499999924,
+        "crops": 20.021442500000074,
+        "patties": 9.98570499999997,
+        "morale": 70.01143599999997,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 0.284650000000652,
+        "companyAgeSeconds": 1.138600000002608,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 320.2846500000008,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.957302499999948,
+        "crops": 20.04269750000006,
+        "patties": 9.971535000000005,
+        "morale": 70.02277199999992,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 0.284650000000652,
+        "companyAgeSeconds": 1.138600000002608,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 320.2846500000008,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.957302499999948,
+        "crops": 20.04269750000006,
+        "patties": 9.971535000000005,
+        "morale": 70.02277199999992,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 0.29715000000065195,
+        "companyAgeSeconds": 1.1886000000026078,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 320.2971500000008,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.956177499999947,
+        "crops": 35.04532250000006,
+        "patties": 9.970285000000008,
+        "morale": 70.02377199999991,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 1,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 7.592174999999801,
+      "companyAgeSeconds": 30.368699999999205,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 327.5921750000032,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 9.315402250000226,
+      "crops": 36.59305474999264,
+      "patties": 9.240782500000503,
+      "morale": 70.6073739999958,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 7.592174999999801,
+        "companyAgeSeconds": 30.368699999999205,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 327.5921750000032,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.315402250000226,
+        "crops": 36.59305474999264,
+        "patties": 9.240782500000503,
+        "morale": 70.6073739999958,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 7.6171999999998,
+        "companyAgeSeconds": 30.4687999999992,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 327.6172000000031,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.313150000000222,
+        "crops": 51.598309999992615,
+        "patties": 9.238280000000497,
+        "morale": 70.60937599999578,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 1,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 8.030125000000508,
+      "companyAgeSeconds": 32.12050000000203,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 328.0301250000027,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 9.260209750000103,
+      "crops": 36.66924724999256,
+      "patties": 9.196987500000438,
+      "morale": 70.6424099999955,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 8.034300000000508,
+        "companyAgeSeconds": 32.13720000000203,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 328.0343000000027,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.259834000000103,
+        "crops": 36.670123999992555,
+        "patties": 9.196570000000436,
+        "morale": 70.64274399999549,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 8.05930000000051,
+        "companyAgeSeconds": 32.23720000000204,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 328.0593000000027,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 9.257584000000099,
+        "crops": 51.67537399999253,
+        "patties": 9.194070000000432,
+        "morale": 70.64474399999547,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 2,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 15.20435000000024,
+      "companyAgeSeconds": 60.81740000000096,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 335.20435000000566,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 8.630306499999483,
+      "crops": 53.19161149998535,
+      "patties": 8.479564999999255,
+      "morale": 71.2163479999915,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 2,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 15.371450000000987,
+      "companyAgeSeconds": 61.48580000000395,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 335.37145000000453,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 8.599490499999364,
+      "crops": 53.210925499985514,
+      "patties": 8.462854999999204,
+      "morale": 71.22971599999126,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 15.208500000000239,
+        "companyAgeSeconds": 60.834000000000955,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 335.2085000000057,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.629932999999482,
+        "crops": 53.192482999985344,
+        "patties": 8.479149999999255,
+        "morale": 71.2166799999915,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 15.241825000000238,
+        "companyAgeSeconds": 60.967300000000954,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 335.2418250000058,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.62693374999948,
+        "crops": 68.1994812499853,
+        "patties": 8.47581749999925,
+        "morale": 71.21934599999149,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 15.375625000000987,
+        "companyAgeSeconds": 61.50250000000395,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 335.3756250000045,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.599114749999364,
+        "crops": 53.21180224998551,
+        "patties": 8.462437499999202,
+        "morale": 71.23004999999125,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 15.40477500000099,
+        "companyAgeSeconds": 61.61910000000396,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 335.4047750000045,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.596491249999362,
+        "crops": 68.21792374998549,
+        "patties": 8.459522499999197,
+        "morale": 71.23238199999123,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 3,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 22.967000000002553,
+      "companyAgeSeconds": 91.86800000001021,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 342.9669999999918,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 7.915890999999357,
+      "crops": 69.80599099998646,
+      "patties": 7.703299999998384,
+      "morale": 71.8373599999871,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 22.967000000002553,
+        "companyAgeSeconds": 91.86800000001021,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 342.9669999999918,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 7.915890999999357,
+        "crops": 69.80599099998646,
+        "patties": 7.703299999998384,
+        "morale": 71.8373599999871,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 22.98782500000256,
+        "companyAgeSeconds": 91.95130000001024,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 342.9878249999918,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 7.914016749999357,
+        "crops": 84.81036424998648,
+        "patties": 7.701217499998383,
+        "morale": 71.83902599998709,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 3,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 22.741550000001745,
+      "companyAgeSeconds": 90.96620000000698,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 342.7415499999926,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 7.95195849999944,
+      "crops": 69.77442349998628,
+      "patties": 7.7258449999984125,
+      "morale": 71.81932399998726,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 22.741550000001745,
+        "companyAgeSeconds": 90.96620000000698,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 342.7415499999926,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 7.95195849999944,
+        "crops": 69.77442349998628,
+        "patties": 7.7258449999984125,
+        "morale": 71.81932399998726,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 22.76655000000175,
+        "companyAgeSeconds": 91.066200000007,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 342.76654999999266,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 7.94970849999944,
+        "crops": 84.77967349998629,
+        "patties": 7.723344999998411,
+        "morale": 71.82132399998726,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 4,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 30.475050000004135,
+      "companyAgeSeconds": 121.90020000001654,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 350.4750499999777,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 7.240166499999513,
+      "crops": 86.38268149998736,
+      "patties": 6.952494999998267,
+      "morale": 72.43800399998301,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 30.475050000004135,
+        "companyAgeSeconds": 121.90020000001654,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 350.4750499999777,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 7.240166499999513,
+        "crops": 86.38268149998736,
+        "patties": 6.952494999998267,
+        "morale": 72.43800399998301,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 30.50420000000414,
+        "companyAgeSeconds": 122.01680000001656,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 350.5041999999777,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 7.237542999999515,
+        "crops": 101.38880299998733,
+        "patties": 6.949579999998268,
+        "morale": 72.440335999983,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 4,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 30.22857500000322,
+      "companyAgeSeconds": 120.91430000001289,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 350.22857499998446,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 7.27812624999961,
+      "crops": 86.34669874998706,
+      "patties": 6.977142499998323,
+      "morale": 72.41828599998347,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 30.22857500000322,
+        "companyAgeSeconds": 120.91430000001289,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 350.22857499998446,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 7.27812624999961,
+        "crops": 86.34669874998706,
+        "patties": 6.977142499998323,
+        "morale": 72.41828599998347,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 30.24940000000323,
+        "companyAgeSeconds": 120.99760000001292,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 350.2493999999845,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 7.2762519999996105,
+        "crops": 101.35107199998706,
+        "patties": 6.975059999998323,
+        "morale": 72.41995199998345,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 5,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 37.8122500000058,
+      "companyAgeSeconds": 151.2490000000232,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 357.8122499999857,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 6.579818499999899,
+      "crops": 102.92349349998479,
+      "patties": 6.218774999998339,
+      "morale": 73.0249799999785,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[31s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 37.8122500000058,
+        "companyAgeSeconds": 151.2490000000232,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 357.8122499999857,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 6.579818499999899,
+        "crops": 102.92349349998479,
+        "patties": 6.218774999998339,
+        "morale": 73.0249799999785,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 37.8330750000058,
+        "companyAgeSeconds": 151.3323000000232,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 357.8330749999858,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 6.5779442499999,
+        "crops": 117.92786674998477,
+        "patties": 6.21669249999834,
+        "morale": 73.02664599997848,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 5,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 37.57812500000487,
+      "companyAgeSeconds": 150.31250000001947,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 357.57812499999847,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 6.616666749999984,
+      "crops": 102.89010424998465,
+      "patties": 6.242187499998422,
+      "morale": 73.0062499999798,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[30s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 37.57812500000487,
+        "companyAgeSeconds": 150.31250000001947,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 357.57812499999847,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 6.616666749999984,
+        "crops": 102.89010424998465,
+        "patties": 6.242187499998422,
+        "morale": 73.0062499999798,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 37.57812500000487,
+        "companyAgeSeconds": 150.31250000001947,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 357.57812499999847,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 6.616666749999984,
+        "crops": 117.89010424998465,
+        "patties": 6.242187499998422,
+        "morale": 73.0062499999798,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 6,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 45.428600000007535,
+      "companyAgeSeconds": 181.71440000003014,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 365.4286000000027,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 5.894347000000324,
+      "crops": 119.52292699998154,
+      "patties": 5.457139999998437,
+      "morale": 73.63428799997412,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[31s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 45.428600000007535,
+        "companyAgeSeconds": 181.71440000003014,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 365.4286000000027,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 5.894347000000324,
+        "crops": 119.52292699998154,
+        "patties": 5.457139999998437,
+        "morale": 73.63428799997412,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 45.457750000007536,
+        "companyAgeSeconds": 181.83100000003014,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 365.45775000000265,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 5.891723500000326,
+        "crops": 134.5290484999815,
+        "patties": 5.454224999998438,
+        "morale": 73.6366199999741,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 7,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 53.015800000009264,
+      "companyAgeSeconds": 212.06320000003706,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 373.0158000000171,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 5.21149900000074,
+      "crops": 136.11623899999114,
+      "patties": 4.698419999998529,
+      "morale": 74.24126399996992,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[31s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 53.01995000000927,
+        "companyAgeSeconds": 212.07980000003707,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 373.01995000001716,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 5.2111255000007395,
+        "crops": 136.11711049999116,
+        "patties": 4.6980049999985285,
+        "morale": 74.24159599996992,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 53.04495000000927,
+        "companyAgeSeconds": 212.1798000000371,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 373.04495000001725,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 5.208875500000741,
+        "crops": 151.1223604999912,
+        "patties": 4.695504999998529,
+        "morale": 74.2435959999699,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 6,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 45.06935000000659,
+      "companyAgeSeconds": 180.27740000002635,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 365.069350000013,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 5.942456500000372,
+      "crops": 119.46326149998195,
+      "patties": 5.49306499999852,
+      "morale": 73.60554799997598,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[30s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 45.06935000000659,
+        "companyAgeSeconds": 180.27740000002635,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 365.069350000013,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 5.942456500000372,
+        "crops": 119.46326149998195,
+        "patties": 5.49306499999852,
+        "morale": 73.60554799997598,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 45.09435000000659,
+        "companyAgeSeconds": 180.37740000002637,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 365.09435000001304,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 5.9402065000003725,
+        "crops": 134.46851149998196,
+        "patties": 5.49056499999852,
+        "morale": 73.60754799997598,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 8,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 60.35715000001095,
+      "companyAgeSeconds": 241.4286000000438,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 355.3571500000325,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 4.550777500001157,
+      "crops": 152.65792250000104,
+      "patties": 3.964284999998621,
+      "morale": 74.82857199996559,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+        "[53s] Sow soy field (+15 crops, 6s cooldown)",
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[31s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 60.36130000001095,
+        "companyAgeSeconds": 241.4452000000438,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 355.36130000003254,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 4.550404000001157,
+        "crops": 152.65879400000105,
+        "patties": 3.9638699999986207,
+        "morale": 74.82890399996559,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 60.386300000010955,
+        "companyAgeSeconds": 241.54520000004382,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 355.38630000003263,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 4.548154000001158,
+        "crops": 167.6640440000011,
+        "patties": 3.9613699999986203,
+        "morale": 74.83090399996557,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 7,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 52.65242500000829,
+      "companyAgeSeconds": 210.60970000003317,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 372.6524250000261,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 5.259979750000778,
+      "crops": 136.05570724999092,
+      "patties": 4.734757499998629,
+      "morale": 74.21219399997192,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[30s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 52.65242500000829,
+        "companyAgeSeconds": 210.60970000003317,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 372.6524250000261,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 5.259979750000778,
+        "crops": 136.05570724999092,
+        "patties": 4.734757499998629,
+        "morale": 74.21219399997192,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 52.6899500000083,
+        "companyAgeSeconds": 210.7598000000332,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 372.68995000002616,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 5.25660250000078,
+        "crops": 151.06358749999097,
+        "patties": 4.731004999998629,
+        "morale": 74.2151959999719,
+        "quarter": 0,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 9,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 67.95267500001239,
+      "companyAgeSeconds": 271.81070000004956,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 362.9526750000215,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 3.86718025000145,
+      "crops": 169.25298275000048,
+      "patties": 3.2047324999986495,
+      "morale": 75.43621399996128,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[60s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+        "[53s] Sow soy field (+15 crops, 6s cooldown)",
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[31s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 67.95267500001239,
+        "companyAgeSeconds": 271.81070000004956,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 362.9526750000215,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 3.86718025000145,
+        "crops": 169.25298275000048,
+        "patties": 3.2047324999986495,
+        "morale": 75.43621399996128,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 67.9818500000124,
+        "companyAgeSeconds": 271.9274000000496,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 362.9818500000213,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 3.86455450000145,
+        "crops": 184.25910950000042,
+        "patties": 3.20181499999865,
+        "morale": 75.43854799996127,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-1\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 67.9860500000124,
+        "companyAgeSeconds": 271.9442000000496,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 362.9860500000213,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 3.8641765000014505,
+        "crops": 184.2599915000004,
+        "patties": 3.20139499999865,
+        "morale": 75.43888399996128,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 68.0152000000124,
+        "companyAgeSeconds": 272.0608000000496,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 283.01520000002114,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.861553000001452,
+        "crops": 184.26611300000033,
+        "patties": 3.1984799999986513,
+        "morale": 75.44121599996126,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[68s] Buy cattle (+5 head, -$80)",
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 8,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 60.09797500001,
+      "companyAgeSeconds": 240.39190000004,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 355.0979749999886,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 4.589880250001024,
+      "crops": 152.6192727499805,
+      "patties": 3.990202499998553,
+      "morale": 74.80783799996775,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+        "[53s] Sow soy field (+15 crops, 6s cooldown)",
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[30s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 60.09797500001,
+        "companyAgeSeconds": 240.39190000004,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 355.0979749999886,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 4.589880250001024,
+        "crops": 152.6192727499805,
+        "patties": 3.990202499998553,
+        "morale": 74.80783799996775,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 60.11465000001001,
+        "companyAgeSeconds": 240.45860000004004,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 355.1146499999885,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 4.588379500001025,
+        "crops": 167.6227744999805,
+        "patties": 3.988534999998553,
+        "morale": 74.80917199996773,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch managed checkpoint",
+      "step": 10,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 75.35240000001409,
+      "companyAgeSeconds": 301.40960000005634,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 290.35239999998294,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 8.201205000001202,
+      "crops": 185.80692499998966,
+      "patties": 2.4647599999987855,
+      "morale": 76.02819199995706,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[68s] Buy cattle (+5 head, -$80)",
+        "[68s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+        "[53s] Sow soy field (+15 crops, 6s cooldown)",
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[31s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.35655000001408,
+        "companyAgeSeconds": 301.4262000000563,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.3565499999829,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.200831500001202,
+        "crops": 185.80779649998965,
+        "patties": 2.464344999998786,
+        "morale": 76.02852399995706,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[68s] Buy cattle (+5 head, -$80)",
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.37740000001409,
+        "companyAgeSeconds": 301.50960000005637,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.3773999999828,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.198955000001202,
+        "crops": 200.81217499998965,
+        "patties": 2.462259999998786,
+        "morale": 76.03019199995704,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[75s] Sow soy field (+15 crops, 6s cooldown)",
+          "[68s] Buy cattle (+5 head, -$80)",
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[31s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)"
+        ]
+      }
+    },
+    {
+      "test": "touch five minutes survived",
+      "nativeElapsedMs": 302100,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 75.38572500001409,
+      "companyAgeSeconds": 301.54290000005636,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 290.38572499998276,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 8.198205750001202,
+      "crops": 200.81392324998964,
+      "patties": 2.4614274999987864,
+      "morale": 76.03085799995704,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[75s] Sow soy field (+15 crops, 6s cooldown)",
+        "[68s] Buy cattle (+5 head, -$80)",
+        "[68s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+        "[53s] Sow soy field (+15 crops, 6s cooldown)",
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[31s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)"
+      ]
+    },
+    {
+      "test": "touch pause/settings/save/reload",
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 75.5012250000145,
+      "companyAgeSeconds": 302.004900000058,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 290.50122499998264,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 8.187810750001164,
+      "crops": 200.8381782499896,
+      "patties": 2.449877499998749,
+      "morale": 76.040097999957,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"farm-2\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.52437500001413,
+        "companyAgeSeconds": 302.0975000000565,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.5243749999823,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.185727250001197,
+        "crops": 200.84303974998957,
+        "patties": 2.447562499998785,
+        "morale": 76.04194999995696,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.58687500001412,
+        "companyAgeSeconds": 302.34750000005647,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.5868749999824,
+        "rep": 70,
+        "backlash": 0.003527500000000005,
+        "cattle": 8.180102250001196,
+        "crops": 200.86303714998965,
+        "patties": 2.4413124999987823,
+        "morale": 76.04694999995695,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      }
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"feed-1\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.62437500001411,
+        "companyAgeSeconds": 302.49750000005645,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.6243749999824,
+        "rep": 70,
+        "backlash": 0.0354025,
+        "cattle": 8.176727250001194,
+        "crops": 200.93301214998968,
+        "patties": 2.4375624999987813,
+        "morale": 76.04994999995695,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.67020000001412,
+        "companyAgeSeconds": 302.6808000000565,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.6701999999824,
+        "rep": 70,
+        "backlash": 0.07769375000000002,
+        "cattle": 8.171100000001193,
+        "crops": 201.01701859998977,
+        "patties": 2.4359859999987803,
+        "morale": 76.05361599995693,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 1,
+          "cutCorners": 0
+        },
+        "events": [
+          "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+          "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      }
+    },
+    {
+      "input": "touch",
+      "action": "[data-action=\"rest-1\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.69102500001412,
+        "companyAgeSeconds": 302.7641000000565,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.6910249999824,
+        "rep": 70,
+        "backlash": 0.1120550000000001,
+        "cattle": 8.161728750001187,
+        "crops": 201.04838104998984,
+        "patties": 2.44889749999878,
+        "morale": 76.05528199995692,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 1,
+          "cutCorners": 0
+        },
+        "events": [
+          "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+          "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.71602500001413,
+        "companyAgeSeconds": 302.8641000000565,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.7160249999824,
+        "rep": 70,
+        "backlash": 0.15330500000000008,
+        "cattle": 8.150478750001183,
+        "crops": 201.08603104998994,
+        "patties": 2.464397499998779,
+        "morale": 76.0572819999569,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 1,
+          "cutCorners": 1
+        },
+        "events": [
+          "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+          "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+          "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      }
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 0,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 80.79922500001389,
+      "companyAgeSeconds": 323.19690000005556,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 331.3816249999853,
+      "rep": 70,
+      "backlash": 13.623785000000007,
+      "cattle": 5.863038750001222,
+      "crops": 208.74133024998753,
+      "patties": 3.074381499998762,
+      "morale": 74.93897799995605,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 1,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 85.8157250000136,
+      "companyAgeSeconds": 343.2629000000544,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 371.5136249999876,
+      "rep": 70,
+      "backlash": 26.917510000000078,
+      "cattle": 3.6056137500012175,
+      "crops": 216.29617924998502,
+      "patties": 3.6763614999987353,
+      "morale": 73.83534799995506,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 2,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 90.7820250000133,
+      "companyAgeSeconds": 363.1281000000532,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 411.24402499998826,
+      "rep": 70,
+      "backlash": 40.078204999999976,
+      "cattle": 2.071818183713823,
+      "crops": 224.47646648369567,
+      "patties": 2.870238632573453,
+      "morale": 72.74276199995411,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 9,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 67.61445000001169,
+      "companyAgeSeconds": 270.45780000004675,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 362.61444999995103,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 3.9133975000012393,
+      "crops": 169.19773249996953,
+      "patties": 3.238554999998684,
+      "morale": 75.40915599996373,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[60s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+        "[53s] Sow soy field (+15 crops, 6s cooldown)",
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[30s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 67.61445000001169,
+        "companyAgeSeconds": 270.45780000004675,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 362.61444999995103,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 3.9133975000012393,
+        "crops": 169.19773249996953,
+        "patties": 3.238554999998684,
+        "morale": 75.40915599996373,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 67.63527500001169,
+        "companyAgeSeconds": 270.54110000004675,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 362.6352749999509,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 3.9115232500012396,
+        "crops": 184.2021057499695,
+        "patties": 3.2364724999986847,
+        "morale": 75.41082199996372,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-1\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 67.63945000001169,
+        "companyAgeSeconds": 270.55780000004677,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 362.6394499999509,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 3.9111475000012392,
+        "crops": 184.2029824999695,
+        "patties": 3.2360549999986845,
+        "morale": 75.41115599996371,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 67.6519500000117,
+        "companyAgeSeconds": 270.6078000000468,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 282.65194999995083,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.91002250000124,
+        "crops": 184.20560749996946,
+        "patties": 3.2348049999986848,
+        "morale": 75.4121559999637,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[68s] Buy cattle (+5 head, -$80)",
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      }
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 3,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 95.79862500001302,
+      "companyAgeSeconds": 383.1945000000521,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 443.3537122576561,
+      "rep": 70,
+      "backlash": 53.37219499999963,
+      "cattle": 1.615460148048536,
+      "crops": 233.83257804802832,
+      "patties": 0.8728957966954904,
+      "morale": 71.63910999995312,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 4,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 100.81512500001273,
+      "companyAgeSeconds": 403.2605000000509,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 455.3058918894606,
+      "rep": 66.22509999999953,
+      "backlash": 66.66591999999945,
+      "cattle": 1.485639734220685,
+      "crops": 243.5150316341986,
+      "patties": 0.7421441703758768,
+      "morale": 70.53547999995213,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 5,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 105.58152500001245,
+      "companyAgeSeconds": 422.3261000000498,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 464.4923142267034,
+      "rep": 59.07549999999952,
+      "backlash": 79.29687999999975,
+      "cattle": 1.4488572429796698,
+      "crops": 252.8013275429561,
+      "patties": 0.7160143607027366,
+      "morale": 69.48687199995132,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 6,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 110.73142500001244,
+      "companyAgeSeconds": 442.92570000004974,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 471.5385987599393,
+      "rep": 30.301149999999627,
+      "backlash": 100,
+      "cattle": 0.9695241472322231,
+      "crops": 263.11514654503236,
+      "patties": 0.48697758989281636,
+      "morale": 68.35389399995039,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[109s] DISEASE OUTBREAK: herd culled, rep -12",
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 7,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 115.73122500001227,
+      "companyAgeSeconds": 462.9249000000491,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 473.9543868752749,
+      "rep": 7.802049999999538,
+      "backlash": 100,
+      "cattle": 1.3012491574789182,
+      "crops": 273.22648035527703,
+      "patties": 0.6215100549825462,
+      "morale": 67.25393799994941,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[109s] DISEASE OUTBREAK: herd culled, rep -12",
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "touch native-clock dirty consequence",
+      "step": 8,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 117.48112500001236,
+      "companyAgeSeconds": 469.9245000000494,
+      "paused": false,
+      "over": true,
+      "reason": "REPUTATION COLLAPSE — activists shut you down",
+      "cash": 476.0367914143004,
+      "rep": 0,
+      "backlash": 100,
+      "cattle": 1.3483658655259154,
+      "crops": 276.69640146332324,
+      "patties": 0.6519540715103532,
+      "morale": 66.86895999994907,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[117s] GAME OVER: REPUTATION COLLAPSE — activists shut you down",
+        "[109s] DISEASE OUTBREAK: herd culled, rep -12",
+        "[76s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[76s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[76s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "touch retry",
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 0,
+      "companyAgeSeconds": 0,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 500,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 10,
+      "crops": 20,
+      "patties": 10,
+      "morale": 70,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "test": "desktop managed checkpoint",
+      "step": 10,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 75.07250000001339,
+      "companyAgeSeconds": 300.29000000005357,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 290.0724999999129,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 8.242173000001012,
+      "crops": 185.76392299995874,
+      "patties": 2.492749999998818,
+      "morale": 76.00579999995948,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[68s] Buy cattle (+5 head, -$80)",
+        "[68s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+        "[53s] Sow soy field (+15 crops, 6s cooldown)",
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[30s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)",
+        "[0s] New run — four panes, one economy."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-0\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.07250000001339,
+        "companyAgeSeconds": 300.29000000005357,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.0724999999129,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.242173000001012,
+        "crops": 185.76392299995874,
+        "patties": 2.492749999998818,
+        "morale": 76.00579999995948,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[68s] Buy cattle (+5 head, -$80)",
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)",
+          "[0s] New run — four panes, one economy."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.0933500000134,
+        "companyAgeSeconds": 300.3734000000536,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.0933499999128,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.240296500001008,
+        "crops": 200.7683014999587,
+        "patties": 2.4906649999988177,
+        "morale": 76.00746799995947,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[75s] Sow soy field (+15 crops, 6s cooldown)",
+          "[68s] Buy cattle (+5 head, -$80)",
+          "[68s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] Sow soy field (+15 crops, 6s cooldown)",
+          "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+          "[53s] Sow soy field (+15 crops, 6s cooldown)",
+          "[45s] Sow soy field (+15 crops, 6s cooldown)",
+          "[38s] Sow soy field (+15 crops, 6s cooldown)",
+          "[30s] Sow soy field (+15 crops, 6s cooldown)",
+          "[23s] Sow soy field (+15 crops, 6s cooldown)",
+          "[15s] Sow soy field (+15 crops, 6s cooldown)",
+          "[8s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Sow soy field (+15 crops, 6s cooldown)",
+          "[0s] Lease pasture (-$180, +herd growth, max 5)"
+        ]
+      }
+    },
+    {
+      "test": "desktop five minutes survived",
+      "nativeElapsedMs": 363116,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 75.0975000000134,
+      "companyAgeSeconds": 300.3900000000536,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 290.09749999991277,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 8.239923000001008,
+      "crops": 200.7691729999587,
+      "patties": 2.4902499999988184,
+      "morale": 76.00779999995947,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[75s] Sow soy field (+15 crops, 6s cooldown)",
+        "[68s] Buy cattle (+5 head, -$80)",
+        "[68s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] Sow soy field (+15 crops, 6s cooldown)",
+        "[60s] QUARTER 1: board dividend -$25. Growth is never enough.",
+        "[53s] Sow soy field (+15 crops, 6s cooldown)",
+        "[45s] Sow soy field (+15 crops, 6s cooldown)",
+        "[38s] Sow soy field (+15 crops, 6s cooldown)",
+        "[30s] Sow soy field (+15 crops, 6s cooldown)",
+        "[23s] Sow soy field (+15 crops, 6s cooldown)",
+        "[15s] Sow soy field (+15 crops, 6s cooldown)",
+        "[8s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Sow soy field (+15 crops, 6s cooldown)",
+        "[0s] Lease pasture (-$180, +herd growth, max 5)"
+      ]
+    },
+    {
+      "test": "desktop pause/settings/save/reload",
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 75.23612500001312,
+      "companyAgeSeconds": 300.94450000005247,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 290.23612499991236,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 8.227446750001032,
+      "crops": 200.7982842499587,
+      "patties": 2.476387499998843,
+      "morale": 76.01888999995938,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"farm-2\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.23612500001312,
+        "companyAgeSeconds": 300.94450000005247,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.23612499991236,
+        "rep": 70,
+        "backlash": 0,
+        "cattle": 8.227446750001032,
+        "crops": 200.7982842499587,
+        "patties": 2.476387499998843,
+        "morale": 76.01888999995938,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 0,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.2644250000131,
+        "companyAgeSeconds": 301.0577000000524,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.2644249999125,
+        "rep": 70,
+        "backlash": 0.0035487500000001546,
+        "cattle": 8.224899750001034,
+        "crops": 200.81114104995876,
+        "patties": 2.473557499998844,
+        "morale": 76.02115399995938,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      }
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"feed-1\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.2685750000131,
+        "companyAgeSeconds": 301.0743000000524,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.2685749999125,
+        "rep": 70,
+        "backlash": 0.007076249999999846,
+        "cattle": 8.224526250001034,
+        "crops": 200.81888494995877,
+        "patties": 2.4731424999988443,
+        "morale": 76.02148599995938,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 0,
+          "cutCorners": 0
+        },
+        "events": [
+          "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.28525000001311,
+        "companyAgeSeconds": 301.14100000005243,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.2852499999125,
+        "rep": 70,
+        "backlash": 0.02125,
+        "cattle": 8.223025500001034,
+        "crops": 200.8500004999588,
+        "patties": 2.4714749999988452,
+        "morale": 76.02281999995937,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 1,
+          "cutCorners": 0
+        },
+        "events": [
+          "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+          "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      }
+    },
+    {
+      "input": "desktop",
+      "action": "[data-action=\"rest-1\"]",
+      "before": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.28942500001311,
+        "companyAgeSeconds": 301.15770000005244,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.28942499991246,
+        "rep": 70,
+        "backlash": 0.028138750000000302,
+        "cattle": 8.221146750001033,
+        "crops": 200.85628804995883,
+        "patties": 2.4740634999988456,
+        "morale": 76.02315399995936,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 1,
+          "cutCorners": 0
+        },
+        "events": [
+          "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+          "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+        "t": 75.3102750000131,
+        "companyAgeSeconds": 301.2411000000524,
+        "paused": false,
+        "over": false,
+        "reason": "",
+        "cash": 290.31027499991245,
+        "rep": 70,
+        "backlash": 0.0625412499999994,
+        "cattle": 8.211764250001028,
+        "crops": 200.88768814995888,
+        "patties": 2.4869904999988455,
+        "morale": 76.02482199995936,
+        "quarter": 1,
+        "dirty": {
+          "deforest": 1,
+          "cheapFeed": 1,
+          "cutCorners": 1
+        },
+        "events": [
+          "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+          "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+          "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+          "[75s] Operations restored. All four departments are paused."
+        ]
+      }
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 0,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 80.39755000001286,
+      "companyAgeSeconds": 321.5902000000514,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 331.0084749999101,
+      "rep": 70,
+      "backlash": 13.543819999999966,
+      "cattle": 5.922490500000952,
+      "crops": 208.54912429995642,
+      "patties": 3.0974634999988027,
+      "morale": 74.90562149995843,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 1,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 85.41405000001257,
+      "companyAgeSeconds": 341.65620000005026,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 371.14047499990784,
+      "rep": 70,
+      "backlash": 26.837545000000134,
+      "cattle": 3.665065500000873,
+      "crops": 216.1039732999537,
+      "patties": 3.6994434999987553,
+      "morale": 73.80199149995744,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 2,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 90.38045000001242,
+      "companyAgeSeconds": 361.52180000004967,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 410.87167499990505,
+      "rep": 70,
+      "backlash": 39.998505000000065,
+      "cattle": 2.0933706946693245,
+      "crops": 224.24655689462142,
+      "patties": 2.969041110661808,
+      "morale": 72.70938349995647,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 3,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 95.3802500000123,
+      "companyAgeSeconds": 381.5210000000492,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 443.8467279327517,
+      "rep": 70,
+      "backlash": 53.24797500000004,
+      "cattle": 1.6224297959255485,
+      "crops": 233.5552247958782,
+      "patties": 0.8889972915433202,
+      "morale": 71.60942749995549,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 4,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 100.39675000001226,
+      "companyAgeSeconds": 401.58700000004904,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 455.9965037006645,
+      "rep": 66.27519999999998,
+      "backlash": 66.54170000000005,
+      "cattle": 1.4876232399648435,
+      "crops": 243.23269223991824,
+      "patties": 0.7435184324757027,
+      "morale": 70.5057974999545,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 5,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 105.39655000001234,
+      "companyAgeSeconds": 421.58620000004936,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 465.61370323784064,
+      "rep": 58.77550000000029,
+      "backlash": 79.7911699999998,
+      "cattle": 1.4492926247169309,
+      "crops": 252.97397042467085,
+      "patties": 0.7179857208245269,
+      "morale": 69.40584149995352,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 6,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 110.41305000001223,
+      "companyAgeSeconds": 441.65220000004894,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 472.31408110813226,
+      "rep": 30.050950000000363,
+      "backlash": 100,
+      "cattle": 0.9774845907566807,
+      "crops": 263.0348380036461,
+      "patties": 0.48688132908539555,
+      "morale": 68.30221149995253,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[109s] DISEASE OUTBREAK: herd culled, rep -12",
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 7,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 115.41275000001215,
+      "companyAgeSeconds": 461.6510000000486,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 474.807910794104,
+      "rep": 7.552300000000299,
+      "backlash": 100,
+      "cattle": 1.3035376813449615,
+      "crops": 273.14030429423207,
+      "patties": 0.6229804371623862,
+      "morale": 67.20227749995155,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[109s] DISEASE OUTBREAK: herd culled, rep -12",
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop native-clock dirty consequence",
+      "step": 8,
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 117.09615000001219,
+      "companyAgeSeconds": 468.38460000004875,
+      "paused": false,
+      "over": true,
+      "reason": "REPUTATION COLLAPSE — activists shut you down",
+      "cash": 476.82033012737963,
+      "rep": 0,
+      "backlash": 100,
+      "cattle": 1.3484281434667258,
+      "crops": 276.47792515635325,
+      "patties": 0.6519950962593559,
+      "morale": 66.83192949995122,
+      "quarter": 1,
+      "dirty": {
+        "deforest": 1,
+        "cheapFeed": 1,
+        "cutCorners": 1
+      },
+      "events": [
+        "[117s] GAME OVER: REPUTATION COLLAPSE — activists shut you down",
+        "[109s] DISEASE OUTBREAK: herd culled, rep -12",
+        "[75s] DIRTY: Cut corners (1.6x margin, +backlash)",
+        "[75s] DIRTY: Cheap feed (1.8x patties, disease risk)",
+        "[75s] DIRTY: Bulldoze rainforest (2.2x crops, +backlash)",
+        "[75s] Operations restored. All four departments are paused."
+      ]
+    },
+    {
+      "test": "desktop retry",
+      "url": "http://127.0.0.1:42533/proof/second-wind/burger-tycoon/?debug",
+      "t": 0.00719999999999709,
+      "companyAgeSeconds": 0.02879999999998836,
+      "paused": false,
+      "over": false,
+      "reason": "",
+      "cash": 500.0072,
+      "rep": 70,
+      "backlash": 0,
+      "cattle": 9.998920000000002,
+      "crops": 20.001079999999998,
+      "patties": 9.99928,
+      "morale": 70.000576,
+      "quarter": 0,
+      "dirty": {
+        "deforest": 0,
+        "cheapFeed": 0,
+        "cutCorners": 0
+      },
+      "events": [
+        "[0s] New run — four panes, one economy."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "maga-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Make Armor Games Great Again — native replicas, monorepo (INTERNAL-NO-PUBLIC)",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:boxhead": "npm run dev -w @maga/boxhead",
+    "dev:impossible": "npm run dev -w @maga/impossible",
+    "dev:burger": "npm run dev -w @maga/burger-tycoon",
+    "dev:chicken": "npm run dev -w @maga/chicken-invaders",
+    "dev:cluck": "npm run dev -w @maga/chicken-invaders-original",
+    "dev:sands": "npm run dev -w @maga/swords-and-sandals"
+  }
+}
