@@ -1,0 +1,14 @@
+Armor Arcade — The Remake Collection, Vol. 01 is ready.
+
+site/: the complete seven-game static release (index.html entry point,
+lan-relay.mjs for Block Siege LAN play).
+previews/: four screenshots captured from the actual games.
+records/: per-game ship records + VERIFICATION.md with exact commands and
+observed results.
+submission.json: title/reference/path for all seven games, verification
+commands and results, known limitations.
+
+Last full gate: `npm run verify` green end-to-end — 8 typecheck workspaces,
+46/46 model tests, 114/114 hardest replays, 7-game build, 46/46 Playwright
+checks on chromium+firefox including two-browser LAN co-op/deathmatch, 7/7
+boxhead input pilots, 4/4 shmup browser, hardest + S&S browser proofs.

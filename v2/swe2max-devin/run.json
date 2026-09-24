@@ -1,0 +1,24 @@
+{
+  "edition": "swe2max-devin",
+  "title": "Armor Arcade",
+  "model": "SWE-2 Max",
+  "substrate": "Devin CLI (devin-cli 3000.11.3), Linux container",
+  "configuration": "Default agent configuration; background subagents used for three parallel implementation lanes (Impossible courses, Burger Tycoon economy, Sand & Steel campaign); Playwright + headless Chromium/Firefox for real-input verification; zero-dependency Node harnesses for deterministic proofs.",
+  "helpers": [
+    "Three internal subagent lanes: impossible course authoring, burger-tycoon economy expansion, swords-and-sandals campaign expansion",
+    "Playwright 1.63.0 (chromium + firefox) as the player harness",
+    "No external models consulted; no external renditions of the games referenced"
+  ],
+  "human_interventions": [
+    "User retuned sector-8 shmup wave compositions during verification (committed pre-lock; shipped build verified to contain it)",
+    "User supplied the GitHub token used to open this submission pull request"
+  ],
+  "started_at": "2026-09-24T00:00:00Z",
+  "finished_at": "2026-09-24T01:18:39Z",
+  "resource_usage": "Not instrumented by the substrate; wall time ~1.3h for this session plus one prior session.",
+  "lock": {
+    "digest": "602e87c175abadd72b4f24a9ac6f29ab5c649c7c5e1ce12ec91b61e63758bc39",
+    "commit": "ae42012e85fa65c41825ac670f9fedeef6322699"
+  },
+  "receipt": "MLNW-8138CF25ABF1"
+}
